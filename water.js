@@ -1638,4 +1638,4 @@ else if (message.content === `${prefix}shutdown`) {
 }
 });
 
-client.login(process.env.NDUwODYyOTMyNzg4NzcyODg0.De5lDA.Z0GJeuFiK3Vl6bm-3O5453pfBXM);
+client.login(process.env.BOT_TOKEN);
