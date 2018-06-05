@@ -14,8 +14,7 @@ client.on('message', message => {
     const chatlogs = message.guild.channels.find("name", "chat-logs")
            if (message) {
              if (!message.author.bot) {
-             if (!Commands.includes(message.content)) {
-             if (!message.content.startsWith(`${prefix}8ball`)) {
+             if (!message.content.startsWith(`${prefix}${Commands}`)) {
              chatlogs.send({embed : {
                 color: 3447003,
             title: "A message has been sent and logged!",
@@ -38,7 +37,6 @@ client.on('message', message => {
             }
         }
     });
-            }
         }
     }
 }
