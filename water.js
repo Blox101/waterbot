@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const { prefix, token, Owners, Bot, Commands, } = require('./config.json');
+const { prefix, token, Owners, Bot, } = require('./config.json');
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -14,7 +14,6 @@ client.on('message', message => {
     const chatlogs = message.guild.channels.find("name", "chat-logs")
            if (message) {
              if (!message.author.bot) {
-             if (!Commands.includes(message.content.startsWith)) {
              chatlogs.send({embed : {
                 color: 3447003,
             title: "A message has been sent and logged!",
@@ -37,7 +36,6 @@ client.on('message', message => {
             }
         }
     });
-        }
     }
 }
     if (message.content === `${prefix}help`) {
