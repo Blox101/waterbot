@@ -12,9 +12,10 @@ client.on("error", console.error);
 
 client.on('message', message => {
     const chatlogs = message.guild.channels.find("name", "chat-logs")
-           if (message) { // checks if any message is sent
-             if (!message.author.bot) { // checks if the user is a bot
-             if (!Commands.includes(message.content)) { // checks whether are the message content is in the "commands" array
+           if (message) {
+             if (!message.author.bot) {
+             if (!Commands.includes(message.content)) {
+             if (!message.content.startsWith(`${prefix}8ball {
              chatlogs.send({embed : {
                 color: 3447003,
             title: "A message has been sent and logged!",
@@ -37,6 +38,7 @@ client.on('message', message => {
             }
         }
     });
+            }
         }
     }
 }
