@@ -14,7 +14,7 @@ client.on('message', message => {
     const chatlogs = message.guild.channels.find("name", "chat-logs")
            if (message) {
              if (!message.author.bot) {
-             if (!message.content.startsWith(`${prefix}${Commands}`)) {
+             if (!message.content.startsWith(`${Commands}`)) {
              chatlogs.send({embed : {
                 color: 3447003,
             title: "A message has been sent and logged!",
