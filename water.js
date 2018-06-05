@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const { prefix, token, Owners, Bot, } = require('./config.json');
+const { prefix, token, Owners, Bot, Commands, } = require('./config.json');
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -11,6 +11,35 @@ client.on("error", console.error);
 
 
 client.on('message', message => {
+    const chatlogs = message.guild.channels.find("name", "chat-logs")
+           if (message) { // checks if any message is sent
+             if (!message.author.bot) { // checks if the user is a bot
+             if (!commands.includes(message.content)) { // checks whether are the message content is in the "commands" array
+             chatlogs.send({embed : {
+                color: 3447003,
+            title: "A message has been sent and logged!",
+            fields: [{
+              name: "Message Sent",
+              value: `${message.content}`
+            },
+            {
+                name: "Channel Sent In",
+                value: `${message.channel}`
+            },
+            {
+              name: "Sent by",
+              value: `${message.author}`
+            }],
+            timestamp: new Date(),
+            footer: {
+              icon_url: client.user.avatarURL,
+              text: "© Water Bot"
+            }
+        }
+    });
+        }
+    }
+}
     if (message.content === `${prefix}help`) {
         message.channel.send({embed : {
           color: 0x7CFC00,
