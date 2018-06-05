@@ -1,6 +1,5 @@
 {
     "prefix": ".",
     "Owners": ["297460599426777090"],
-    "Bot": ["134196203490377729","297460599426777090"],
-    "Commands": [".uptime",".help",".accesslevel",".8ball",".mute",".kick",".unmute",".ban",".addmod",".delmod",".shutdown",".reboot",".membercount",".lockdown",".unlockdown"]
+    "Bot": ["134196203490377729","297460599426777090"]
 }
