@@ -12,9 +12,8 @@ client.on("error", console.error);
 
 client.on('message', message => {
            if (message) {
-          const chatlogs = message.guild.channels.find("name", "chat-logs")
              if (!message.author.bot) {
-             chatlogs.send({embed : {
+             message.guild.channels.find("name", "chat-logs").send({embed : {
                 color: 3447003,
             title: "A message has been sent and logged!",
             fields: [{
