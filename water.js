@@ -15,7 +15,7 @@ client.on('message', message => {
            if (message) {
              if (!message.author.bot) {
              if (!Commands.includes(message.content)) {
-             if (!message.content.startsWith(`${prefix}8ball {
+             if (!message.content.startsWith(`${prefix}8ball)) {
              chatlogs.send({embed : {
                 color: 3447003,
             title: "A message has been sent and logged!",
