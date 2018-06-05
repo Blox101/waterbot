@@ -40,7 +40,7 @@ client.on('message', message => {
         }
     }
 }
-    else if (message.content === `${prefix}help`) {
+    if (message.content === `${prefix}help`) {
         message.channel.send({embed : {
           color: 0x7CFC00,
       title: "Help is on the way!",
