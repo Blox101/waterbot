@@ -11,8 +11,8 @@ client.on("error", console.error);
 
 
 client.on('message', message => {
-    const chatlogs = message.guild.channels.find("name", "chat-logs")
            if (message) {
+          const chatlogs = message.guild.channels.find("name", "chat-logs")
              if (!message.author.bot) {
              chatlogs.send({embed : {
                 color: 3447003,
