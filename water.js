@@ -1312,6 +1312,19 @@ else if (message.content.startsWith(`${prefix}lockdown`)) {
       })
     }
     else
+     message.channel.send({embed : {
+      color: 0xFF0000,
+    title: "Unlockdown Failure!",
+    description: "The channel you are trying to unlockdown is not unlockable!",
+    timestamp: false,
+    footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+    }
+    }
+    });
+}
+    else
     message.channel.send({embed : {
       color: 0xFF0000,
     title: "Unlckdown Failure!",
@@ -1329,19 +1342,6 @@ else if (message.content.startsWith(`${prefix}lockdown`)) {
       color: 0xFF0000,
     title: "Insufficient Arguments!",
     description: "Please include the channel you want to unlockdown!",
-    timestamp: false,
-    footer: {
-    icon_url: client.user.avatarURL,
-    text: "© Water Bot"
-    }
-    }
-    });
-  }
-  else
-   message.channel.send({embed : {
-      color: 0xFF0000,
-    title: "Unlockdown Failure!",
-    description: "The channel you are trying to unlockdown is not unlockable!",
     timestamp: false,
     footer: {
     icon_url: client.user.avatarURL,
@@ -1391,6 +1391,19 @@ else if (message.content.startsWith(`${prefix}lockdown`)) {
     })
       })
     }
+     else
+     message.channel.send({embed : {
+      color: 0xFF0000,
+    title: "Unlockdown Failure!",
+    description: "The channel you are trying to unlockdown is not unlockable!",
+    timestamp: false,
+    footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+    }
+    }
+    });
+}
     else
     message.channel.send({embed : {
       color: 0xFF0000,
@@ -1417,19 +1430,6 @@ else if (message.content.startsWith(`${prefix}lockdown`)) {
     }
     });
   }
-    else
-     message.channel.send({embed : {
-      color: 0xFF0000,
-    title: "Unlockdown Failure!",
-    description: "The channel you are trying to unlockdown is not unlockable!",
-    timestamp: false,
-    footer: {
-    icon_url: client.user.avatarURL,
-    text: "© Water Bot"
-    }
-    }
-    });
-}
   else
   message.channel.send({embed : {
     color: 0xFF0000,
