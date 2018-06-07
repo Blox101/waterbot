@@ -7,7 +7,20 @@ client.on('ready', () => {
     client.user.setActivity('.help');
 });
 
-client.on("error", console.error);
+client.on('error', () => {
+    console.log(error)
+    message.channel.send({embed : {
+        color: 0xFF0000,
+    title: "An error occured!",
+    description: `${error}`,
+    timestamp: false,
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "Please screenshot this message and inform **[REDACTED]#2373**"
+    }
+    }
+  });
+});
 
 
 client.on('message', message => {
