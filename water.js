@@ -1649,8 +1649,8 @@ else if (message.content === `${prefix}reboot`) {
     }
   })
         .then(msg => client.destroy())
-        .then(() => client.login(process.env.TOKEN));
-        client.on('ready', () => {
+        .then(() => client.login(process.env.TOKEN))
+        .then(() => {
           message.channel.send({embed : {
             color: 3447003,
         title: "I am back!",
@@ -1661,8 +1661,8 @@ else if (message.content === `${prefix}reboot`) {
           text: "© Water Bot"
         }
         }
-      })
       });
+      })
     }
     else 
     message.channel.send({embed : {
