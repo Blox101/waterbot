@@ -38,6 +38,7 @@ client.on('message', message => {
     }
 }
     if (message.content === `${prefix}help`) {
+        try {
         message.channel.send({embed : {
           color: 0x7CFC00,
       title: "Help is on the way!",
@@ -126,6 +127,19 @@ client.on('message', message => {
             }
           }
         });
+    }
+        catch (err) {
+            message.channel.send({embed : {
+        color: 0xFF0000,
+    title: "Unable to send Direct Messages!",
+    description: `Please check your server privacy settings as I am unable to send Direct Messages to you!`,
+    timestamp: false,
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "© Water Bot"
+    }
+    }
+  });
     }
   else if (message.content.startsWith(`${prefix}8ball`)) {
       const args = message.content.slice(prefix.length).trim().split(/ +/g);
