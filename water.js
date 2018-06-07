@@ -8,6 +8,7 @@ client.on('ready', () => {
 });
 
 client.on('error', () => {
+    console.log(error)
     message.channel.send({embed : {
         color: 0xFF0000,
     title: "An error occured!",
