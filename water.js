@@ -1270,10 +1270,12 @@ else if (message.content.startsWith(`${prefix}lockdown`)) {
   let targetchannel = args.slice(1).join(" ");
   const unlockdownchannel = message.guild.channels.find("name", (targetchannel))
   const guild = message.guild
+  const unlockablechannels = ["general","bot-commands","test"]
 
   if (Owners.includes(message.author.id)) {
     if (targetchannel) {
     if (unlockdownchannel) {
+    if (unlockablechannles.includes(targetchannel) {
       unlockdownchannel.overwritePermissions(guild.id, {
         SEND_MESSAGES: null
       })
@@ -1327,6 +1329,19 @@ else if (message.content.startsWith(`${prefix}lockdown`)) {
       color: 0xFF0000,
     title: "Insufficient Arguments!",
     description: "Please include the channel you want to unlockdown!",
+    timestamp: false,
+    footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+    }
+    }
+    });
+  }
+  else
+   message.channel.send({embed : {
+      color: 0xFF0000,
+    title: "Unlockdown Failure!",
+    description: "The channel you are trying to unlockdown is not unlockable!",
     timestamp: false,
     footer: {
     icon_url: client.user.avatarURL,
