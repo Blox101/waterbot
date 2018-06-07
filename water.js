@@ -199,7 +199,7 @@ client.on('message', message => {
       }
   });
       }
-      else if (message.member.roles.some(r=>["mod access"].includes(r.name)) ) {
+      else if (mentionedmember.roles.some(r=>["mod access"].includes(r.name)) ) {
         message.channel.send({embed : {
           color: 0x7CFC00,
       title: "Access Level Found!",
