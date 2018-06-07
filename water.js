@@ -1275,7 +1275,7 @@ else if (message.content.startsWith(`${prefix}lockdown`)) {
   if (Owners.includes(message.author.id)) {
     if (targetchannel) {
     if (unlockdownchannel) {
-    if (unlockablechannels.includes(targetchannel) {
+    if (unlockablechannels.includes(targetchannel)) {
       unlockdownchannel.overwritePermissions(guild.id, {
         SEND_MESSAGES: null
       })
@@ -1353,7 +1353,7 @@ else if (message.content.startsWith(`${prefix}lockdown`)) {
   else if (message.member.roles.some(r=>["mod access"].includes(r.name)) ) {
   if (targetchannel) {
     if (unlockdownchannel) {
-     if (unlockablechannels.includes(targetchannel) {
+     if (unlockablechannels.includes(targetchannel)) {
       unlockdownchannel.overwritePermissions(guild.id, {
         SEND_MESSAGES: null
       })
