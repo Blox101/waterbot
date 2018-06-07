@@ -127,8 +127,7 @@ client.on('message', message => {
             }
           }
         });
-    }
-        catch (err) {
+        } catch (e) {
             message.channel.send({embed : {
         color: 0xFF0000,
     title: "Unable to send Direct Messages!",
