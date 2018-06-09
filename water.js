@@ -1,1 +1,1709 @@
-var _0x8cb9=["\x64\x69\x73\x63\x6F\x72\x64\x2E\x6A\x73","\x2E\x2F\x63\x6F\x6E\x66\x69\x67\x2E\x6A\x73\x6F\x6E","\x72\x65\x61\x64\x79","\x52\x65\x61\x64\x79\x21","\x6C\x6F\x67","\x2E\x68\x65\x6C\x70","\x73\x65\x74\x41\x63\x74\x69\x76\x69\x74\x79","\x75\x73\x65\x72","\x6F\x6E","\x65\x72\x72\x6F\x72","\x41\x6E\x20\x65\x72\x72\x6F\x72\x20\x6F\x63\x63\x75\x72\x65\x64\x21","\x24\x7B\x65\x72\x72\x6F\x72\x7D","\x61\x76\x61\x74\x61\x72\x55\x52\x4C","\x50\x6C\x65\x61\x73\x65\x20\x73\x63\x72\x65\x65\x6E\x73\x68\x6F\x74\x20\x74\x68\x69\x73\x20\x6D\x65\x73\x73\x61\x67\x65\x20\x61\x6E\x64\x20\x69\x6E\x66\x6F\x72\x6D\x20\x2A\x2A\x5B\x52\x45\x44\x41\x43\x54\x45\x44\x5D\x23\x32\x33\x37\x33\x2A\x2A","\x73\x65\x6E\x64","\x63\x68\x61\x6E\x6E\x65\x6C","\x6D\x65\x73\x73\x61\x67\x65","\x62\x6F\x74","\x61\x75\x74\x68\x6F\x72","\x41\x20\x6D\x65\x73\x73\x61\x67\x65\x20\x68\x61\x73\x20\x62\x65\x65\x6E\x20\x73\x65\x6E\x74\x20\x61\x6E\x64\x20\x6C\x6F\x67\x67\x65\x64\x21","\x4D\x65\x73\x73\x61\x67\x65\x20\x53\x65\x6E\x74","\x24\x7B\x6D\x65\x73\x73\x61\x67\x65\x2E\x63\x6F\x6E\x74\x65\x6E\x74\x7D","\x43\x68\x61\x6E\x6E\x65\x6C\x20\x53\x65\x6E\x74\x20\x49\x6E","\x24\x7B\x6D\x65\x73\x73\x61\x67\x65\x2E\x63\x68\x61\x6E\x6E\x65\x6C\x7D","\x53\x65\x6E\x74\x20\x62\x79","\x24\x7B\x6D\x65\x73\x73\x61\x67\x65\x2E\x61\x75\x74\x68\x6F\x72\x7D","\xA9\x20\x57\x61\x74\x65\x72\x20\x42\x6F\x74","\x6E\x61\x6D\x65","\x63\x68\x61\x74\x2D\x6C\x6F\x67\x73","\x66\x69\x6E\x64","\x63\x68\x61\x6E\x6E\x65\x6C\x73","\x67\x75\x69\x6C\x64","\x63\x6F\x6E\x74\x65\x6E\x74","\x24\x7B\x70\x72\x65\x66\x69\x78\x7D\x68\x65\x6C\x70","\x48\x65\x6C\x70\x20\x69\x73\x20\x6F\x6E\x20\x74\x68\x65\x20\x77\x61\x79\x21","\x43\x68\x65\x63\x6B\x20\x79\x6F\x75\x72\x20\x64\x69\x72\x65\x63\x74\x20\x6D\x65\x73\x73\x61\x67\x65\x73\x21\x20\x3A\x6D\x61\x69\x6C\x62\x6F\x78\x5F\x77\x69\x74\x68\x5F\x6D\x61\x69\x6C\x3A","\x75\x73\x65\x72\x6E\x61\x6D\x65","\x57\x61\x74\x65\x72\x20\x42\x6F\x74\x20\x43\x6F\x6D\x6D\x61\x6E\x64\x73\x20\x4D\x65\x6E\x75","","\x4C\x69\x73\x74\x20\x6F\x66\x20\x63\x6F\x6D\x6D\x61\x6E\x64\x73\x20\x66\x6F\x72\x20\x74\x68\x65\x20\x57\x61\x74\x65\x72\x20\x42\x6F\x74","\x53\x68\x6F\x77\x73\x20\x75\x70\x20\x74\x68\x65\x20\x62\x6F\x74\x20\x63\x6F\x6D\x6D\x61\x6E\x64\x73\x20\x6D\x65\x6E\x75\x20\x66\x6F\x72\x20\x77\x61\x74\x65\x72\x20\x62\x6F\x74\x2E\x20\x2D\x20\x41\x63\x63\x65\x73\x73\x20\x4C\x65\x76\x65\x6C\x20\x31","\x2E\x6D\x65\x6D\x62\x65\x72\x63\x6F\x75\x6E\x74","\x53\x68\x6F\x77\x73\x20\x75\x70\x20\x74\x68\x65\x20\x63\x75\x72\x72\x65\x6E\x74\x20\x74\x6F\x74\x61\x6C\x20\x6D\x65\x6D\x62\x65\x72\x73\x20\x69\x6E\x20\x74\x68\x65\x20\x73\x65\x72\x76\x65\x72\x2E\x20\x2D\x20\x41\x63\x63\x65\x73\x73\x20\x4C\x65\x76\x65\x6C\x20\x31","\x2E\x61\x63\x63\x65\x73\x73\x6C\x65\x76\x65\x6C","\x53\x68\x6F\x77\x73\x20\x75\x70\x20\x79\x6F\x75\x72\x20\x61\x63\x63\x65\x73\x73\x20\x6C\x65\x76\x65\x6C\x20\x6F\x72\x20\x74\x68\x65\x20\x6D\x65\x6E\x74\x69\x6F\x6E\x65\x64\x20\x75\x73\x65\x72\x20\x61\x63\x63\x65\x73\x73\x20\x6C\x65\x76\x65\x6C\x2E\x20\x2D\x20\x41\x63\x63\x65\x73\x73\x20\x4C\x65\x76\x65\x6C\x20\x31","\x2E\x38\x62\x61\x6C\x6C","\x41\x73\x6B\x20\x74\x68\x65\x20\x62\x6F\x74\x20\x61\x20\x71\x75\x65\x73\x74\x69\x6F\x6E\x2E\x20\x2D\x20\x41\x63\x63\x65\x73\x73\x20\x4C\x65\x76\x65\x6C\x20\x31","\x2E\x6B\x69\x63\x6B","\x4B\x69\x63\x6B\x73\x20\x74\x68\x65\x20\x6D\x65\x6E\x74\x69\x6F\x6E\x65\x64\x20\x75\x73\x65\x72\x2E\x20\x2D\x20\x41\x63\x63\x65\x73\x73\x20\x4C\x65\x76\x65\x6C\x20\x32","\x2E\x62\x61\x6E","\x42\x61\x6E\x73\x20\x74\x68\x65\x20\x6D\x65\x6E\x74\x69\x6F\x6E\x65\x64\x20\x75\x73\x65\x72\x2E\x20\x2D\x20\x41\x63\x63\x65\x73\x73\x20\x4C\x65\x76\x65\x6C\x20\x32","\x2E\x6D\x75\x74\x65","\x4D\x75\x74\x65\x73\x20\x74\x68\x65\x20\x6D\x65\x6E\x74\x69\x6F\x6E\x65\x64\x20\x75\x73\x65\x72\x2E\x20\x2D\x20\x41\x63\x63\x65\x73\x73\x20\x4C\x65\x76\x65\x6C\x20\x32","\x2E\x75\x6E\x6D\x75\x74\x65","\x52\x65\x76\x6F\x6B\x65\x73\x20\x74\x68\x65\x20\x6D\x75\x74\x65\x20\x66\x6F\x72\x20\x74\x68\x65\x20\x6D\x65\x6E\x74\x69\x6F\x6E\x65\x64\x20\x75\x73\x65\x72\x2E\x20\x2D\x20\x41\x63\x63\x65\x73\x73\x20\x4C\x65\x76\x65\x6C\x20\x32","\x2E\x6C\x6F\x63\x6B\x64\x6F\x77\x6E","\x4C\x6F\x63\x6B\x64\x6F\x77\x6E\x20\x74\x68\x65\x20\x74\x61\x72\x67\x65\x74\x65\x64\x20\x63\x68\x61\x6E\x6E\x65\x6C\x2E\x20\x2D\x20\x41\x63\x63\x65\x73\x73\x20\x4C\x65\x76\x65\x6C\x20\x32","\x2E\x75\x6E\x6C\x6F\x63\x6B\x64\x6F\x77\x6E","\x52\x65\x76\x6F\x6B\x65\x73\x20\x74\x68\x65\x20\x6C\x6F\x63\x6B\x64\x6F\x77\x6E\x20\x66\x6F\x72\x20\x74\x68\x65\x20\x74\x61\x72\x67\x65\x74\x65\x64\x20\x63\x68\x61\x6E\x6E\x65\x6C\x2E\x20\x2D\x20\x41\x63\x63\x65\x73\x73\x20\x4C\x65\x76\x65\x6C\x20\x32","\x2E\x61\x64\x64\x6D\x6F\x64","\x47\x69\x76\x65\x73\x20\x74\x68\x65\x20\x6D\x65\x6E\x74\x69\x6F\x6E\x65\x64\x20\x75\x73\x65\x72\x20\x6D\x6F\x64\x20\x70\x65\x72\x6D\x69\x73\x73\x69\x6F\x6E\x73\x2E\x20\x2D\x20\x41\x63\x63\x65\x73\x73\x20\x4C\x65\x76\x65\x6C\x20\x33","\x2E\x64\x65\x6C\x6D\x6F\x64","\x52\x65\x6D\x6F\x76\x65\x73\x20\x74\x68\x65\x20\x6D\x65\x6E\x74\x69\x6F\x6E\x65\x64\x20\x75\x73\x65\x72\x20\x6D\x6F\x64\x20\x70\x65\x72\x6D\x69\x73\x73\x69\x6F\x6E\x73\x2E\x20\x2D\x20\x41\x63\x63\x65\x73\x73\x20\x4C\x65\x76\x65\x6C\x20\x33","\x2E\x75\x70\x74\x69\x6D\x65","\x53\x68\x6F\x77\x73\x20\x75\x70\x20\x74\x68\x65\x20\x62\x6F\x74\x27\x73\x20\x75\x70\x74\x69\x6D\x65\x2E\x20\x2D\x20\x41\x63\x63\x65\x73\x73\x20\x4C\x65\x76\x65\x6C\x20\x33","\x2E\x73\x68\x75\x74\x64\x6F\x77\x6E","\x53\x68\x75\x74\x64\x6F\x77\x6E\x73\x20\x74\x68\x65\x20\x62\x6F\x74\x2E\x20\x2D\x20\x41\x63\x63\x65\x73\x73\x20\x4C\x65\x76\x65\x6C\x20\x33","\x2E\x72\x65\x62\x6F\x6F\x74","\x52\x65\x73\x74\x61\x72\x74\x73\x20\x74\x68\x65\x20\x62\x6F\x74\x2E\x20\x2D\x20\x41\x63\x63\x65\x73\x73\x20\x4C\x65\x76\x65\x6C\x20\x33","\x24\x7B\x70\x72\x65\x66\x69\x78\x7D\x38\x62\x61\x6C\x6C","\x73\x74\x61\x72\x74\x73\x57\x69\x74\x68","\x73\x70\x6C\x69\x74","\x74\x72\x69\x6D","\x6C\x65\x6E\x67\x74\x68","\x73\x6C\x69\x63\x65","\x20","\x6A\x6F\x69\x6E","\x59\x65\x73\x2E","\x4E\x6F\x2E","\x49\x27\x6D\x20\x63\x65\x72\x74\x69\x61\x6E\x20\x6F\x66\x2E","\x49\x20\x61\x6D\x20\x6E\x6F\x74\x20\x73\x75\x72\x65\x2E","\x41\x6E\x73\x77\x65\x72\x20\x55\x6E\x63\x65\x72\x74\x61\x69\x6E","\x44\x65\x66\x69\x6E\x65\x74\x65\x6C\x79\x20\x6E\x6F\x2E","\x59\x45\x53\x21","\x72\x61\x6E\x64\x6F\x6D","\x66\x6C\x6F\x6F\x72","\x41\x20\x71\x75\x65\x73\x74\x69\x6F\x6E\x20\x68\x61\x73\x20\x62\x65\x65\x6E\x20\x61\x73\x6B\x65\x64\x21","\x51\x75\x65\x73\x74\x69\x6F\x6E\x20\x41\x73\x6B\x65\x64","\x24\x7B\x71\x75\x65\x73\x74\x69\x6F\x6E\x7D","\x41\x6E\x73\x77\x65\x72","\x24\x7B\x72\x65\x70\x6C\x69\x65\x73\x5B\x72\x65\x73\x75\x6C\x74\x5D\x7D","\x49\x6E\x73\x75\x66\x66\x69\x63\x69\x65\x6E\x74\x20\x41\x72\x67\x75\x6D\x65\x6E\x74\x73\x21","\x50\x6C\x65\x61\x73\x65\x20\x61\x73\x6B\x20\x61\x20\x71\x75\x65\x73\x74\x69\x6F\x6E\x21","\x24\x7B\x70\x72\x65\x66\x69\x78\x7D\x6D\x65\x6D\x62\x65\x72\x63\x6F\x75\x6E\x74","\x6D\x65\x6D\x62\x65\x72\x43\x6F\x75\x6E\x74","\x4D\x65\x6D\x62\x65\x72\x63\x6F\x75\x6E\x74\x20\x46\x6F\x75\x6E\x64\x21","\x24\x7B\x61\x6C\x6C\x6D\x65\x6D\x62\x65\x72\x73\x7D","\x24\x7B\x70\x72\x65\x66\x69\x78\x7D\x61\x63\x63\x65\x73\x73\x6C\x65\x76\x65\x6C","\x66\x69\x72\x73\x74","\x6D\x65\x6D\x62\x65\x72\x73","\x6D\x65\x6E\x74\x69\x6F\x6E\x73","\x69\x64","\x69\x6E\x63\x6C\x75\x64\x65\x73","\x41\x63\x63\x65\x73\x73\x20\x4C\x65\x76\x65\x6C\x20\x46\x6F\x75\x6E\x64\x21","\x24\x7B\x6D\x65\x6E\x74\x69\x6F\x6E\x65\x64\x6D\x65\x6D\x62\x65\x72\x7D\x20\x61\x63\x63\x65\x73\x73\x20\x6C\x65\x76\x65\x6C\x20\x69\x73\x20\x33\x20\x2D\x20\x57\x61\x74\x65\x72\x20\x42\x6F\x74\x20\x4F\x77\x6E\x65\x72","\x6D\x6F\x64\x20\x61\x63\x63\x65\x73\x73","\x73\x6F\x6D\x65","\x72\x6F\x6C\x65\x73","\x24\x7B\x6D\x65\x6E\x74\x69\x6F\x6E\x65\x64\x6D\x65\x6D\x62\x65\x72\x7D\x20\x61\x63\x63\x65\x73\x73\x20\x6C\x65\x76\x65\x6C\x20\x69\x73\x20\x32\x20\x2D\x20\x57\x61\x74\x65\x72\x20\x42\x6F\x74\x20\x4D\x6F\x64\x65\x72\x61\x74\x6F\x72","\x24\x7B\x6D\x65\x6E\x74\x69\x6F\x6E\x65\x64\x6D\x65\x6D\x62\x65\x72\x7D\x20\x61\x63\x63\x65\x73\x73\x20\x6C\x65\x76\x65\x6C\x20\x69\x73\x20\x31\x20\x2D\x20\x57\x61\x74\x65\x72\x20\x42\x6F\x74\x20\x55\x73\x65\x72","\x6D\x65\x6D\x62\x65\x72","\x41\x63\x63\x65\x73\x73\x20\x4C\x65\x76\x65\x6C\x20\x46\x6F\x75\x6E\x64\x21\x20","\x24\x7B\x6D\x65\x73\x73\x61\x67\x65\x2E\x6D\x65\x6D\x62\x65\x72\x7D\x20\x61\x63\x63\x65\x73\x73\x20\x6C\x65\x76\x65\x6C\x20\x69\x73\x20\x33\x20\x2D\x20\x57\x61\x74\x65\x72\x20\x42\x6F\x74\x20\x4F\x77\x6E\x65\x72","\x24\x7B\x6D\x65\x73\x73\x61\x67\x65\x2E\x6D\x65\x6D\x62\x65\x72\x7D\x20\x61\x63\x63\x65\x73\x73\x20\x6C\x65\x76\x65\x6C\x20\x69\x73\x20\x32\x20\x2D\x20\x57\x61\x74\x65\x72\x20\x42\x6F\x74\x20\x4D\x6F\x64\x65\x72\x61\x74\x6F\x72","\x24\x7B\x6D\x65\x73\x73\x61\x67\x65\x2E\x6D\x65\x6D\x62\x65\x72\x7D\x20\x61\x63\x63\x65\x73\x73\x20\x6C\x65\x76\x65\x6C\x20\x69\x73\x20\x31\x20\x2D\x20\x57\x61\x74\x65\x72\x20\x42\x6F\x74\x20\x55\x73\x65\x72","\x24\x7B\x70\x72\x65\x66\x69\x78\x7D\x6B\x69\x63\x6B","\x6D\x6F\x64\x2D\x6C\x6F\x67\x73","\x4B\x69\x63\x6B\x20\x46\x61\x69\x6C\x75\x72\x65\x21","\x54\x68\x65\x20\x75\x73\x65\x72\x20\x79\x6F\x75\x20\x61\x72\x65\x20\x74\x72\x79\x69\x6E\x67\x20\x74\x6F\x20\x6B\x69\x63\x6B\x20\x68\x61\x73\x20\x74\x68\x65\x20\x73\x61\x6D\x65\x20\x6F\x72\x20\x68\x69\x67\x68\x65\x72\x20\x61\x63\x63\x65\x73\x73\x20\x6C\x65\x76\x65\x6C\x20\x74\x68\x61\x6E\x20\x79\x6F\x75\x21","\x6B\x69\x63\x6B\x61\x62\x6C\x65","\x64\x65\x6C\x65\x74\x65","\x6B\x69\x63\x6B","\x4B\x69\x63\x6B\x20\x53\x75\x63\x63\x65\x73\x73\x21","\x24\x7B\x6D\x65\x6E\x74\x69\x6F\x6E\x65\x64\x6D\x65\x6D\x62\x65\x72\x7D\x20\x68\x61\x73\x20\x62\x65\x65\x6E\x20\x6B\x69\x63\x6B\x65\x64\x20\x66\x72\x6F\x6D\x20\x74\x68\x65\x20\x73\x65\x72\x76\x65\x72\x21","\x55\x73\x65\x72\x20\x68\x61\x73\x20\x62\x65\x65\x6E\x20\x6B\x69\x63\x6B\x65\x64\x21","\x55\x73\x65\x72","\x24\x7B\x6D\x65\x6E\x74\x69\x6F\x6E\x65\x64\x6D\x65\x6D\x62\x65\x72\x7D","\x4D\x6F\x64\x65\x72\x61\x74\x6F\x72","\x24\x7B\x6D\x65\x73\x73\x61\x67\x65\x2E\x6D\x65\x6D\x62\x65\x72\x7D","\x52\x65\x61\x73\x6F\x6E","\x24\x7B\x72\x65\x61\x73\x6F\x6E\x7D","\x74\x68\x65\x6E","\x59\x6F\x75\x20\x68\x61\x76\x65\x20\x62\x65\x65\x6E\x20\x6B\x69\x63\x6B\x65\x64\x20\x66\x72\x6F\x6D\x20\x57\x61\x74\x65\x72\x20\x59\x54\x20\x44\x69\x73\x63\x6F\x72\x64\x2E\x20\x52\x65\x61\x73\x6F\x6E\x20\x3A\x20\x24\x7B\x72\x65\x61\x73\x6F\x6E\x7D","\x50\x6C\x65\x61\x73\x65\x20\x69\x6E\x63\x6C\x75\x64\x65\x20\x74\x68\x65\x20\x72\x65\x61\x73\x6F\x6E\x20\x66\x6F\x72\x20\x74\x68\x65\x20\x6B\x69\x63\x6B\x21","\x49\x20\x61\x6D\x20\x75\x6E\x61\x62\x6C\x65\x20\x74\x6F\x20\x6B\x69\x63\x6B\x20\x74\x68\x69\x73\x20\x75\x73\x65\x72\x2E\x20\x50\x6C\x65\x61\x73\x65\x20\x65\x6E\x73\x75\x72\x65\x20\x74\x68\x61\x74\x20\x6D\x79\x20\x63\x75\x72\x72\x65\x6E\x74\x20\x72\x6F\x6C\x65\x20\x69\x73\x20\x68\x69\x67\x68\x65\x72\x20\x74\x68\x61\x6E\x20\x74\x68\x65\x6D\x20\x61\x6E\x64\x20\x68\x61\x73\x20\x74\x68\x65\x20\x70\x65\x72\x6D\x69\x73\x73\x69\x6F\x6E\x20\x74\x6F\x20\x6B\x69\x63\x6B\x20\x6D\x65\x6D\x62\x65\x72\x73\x21","\x50\x6C\x65\x61\x73\x65\x20\x6D\x65\x6E\x74\x69\x6F\x6E\x20\x74\x68\x65\x20\x75\x73\x65\x72\x20\x74\x68\x61\x74\x20\x79\x6F\x75\x20\x77\x61\x6E\x74\x20\x74\x6F\x20\x6B\x69\x63\x6B\x21","\x49\x6E\x73\x75\x66\x66\x69\x63\x69\x65\x6E\x74\x20\x50\x65\x72\x6D\x69\x73\x73\x69\x6F\x6E\x73\x21","\x54\x68\x69\x73\x20\x63\x6F\x6D\x6D\x61\x6E\x64\x20\x69\x73\x20\x6F\x6E\x6C\x79\x20\x75\x73\x61\x62\x6C\x65\x20\x62\x79\x20\x41\x63\x63\x65\x73\x73\x20\x4C\x65\x76\x65\x6C\x20\x32\x20\x6F\x72\x20\x61\x62\x6F\x76\x65\x21","\x24\x7B\x70\x72\x65\x66\x69\x78\x7D\x62\x61\x6E","\x42\x61\x6E\x20\x46\x61\x69\x6C\x75\x72\x65\x21","\x62\x61\x6E","\x42\x61\x6E\x20\x53\x75\x63\x63\x65\x73\x73\x21","\x24\x7B\x6D\x65\x6E\x74\x69\x6F\x6E\x65\x64\x6D\x65\x6D\x62\x65\x72\x7D\x20\x68\x61\x73\x20\x62\x65\x65\x6E\x20\x62\x61\x6E\x6E\x65\x64\x20\x66\x72\x6F\x6D\x20\x74\x68\x65\x20\x73\x65\x72\x76\x65\x72\x21","\x55\x73\x65\x72\x20\x68\x61\x73\x20\x62\x65\x65\x6E\x20\x62\x61\x6E\x6E\x65\x64\x21","\x59\x6F\x75\x20\x68\x61\x76\x65\x20\x62\x65\x65\x6E\x20\x62\x61\x6E\x6E\x65\x64\x20\x66\x72\x6F\x6D\x20\x57\x61\x74\x65\x72\x20\x59\x54\x20\x44\x69\x73\x63\x6F\x72\x64\x2E\x20\x52\x65\x61\x73\x6F\x6E\x20\x3A\x20\x24\x7B\x72\x65\x61\x73\x6F\x6E\x7D","\x50\x6C\x65\x61\x73\x65\x20\x69\x6E\x63\x6C\x75\x64\x65\x20\x74\x68\x65\x20\x72\x65\x61\x73\x6F\x6E\x20\x66\x6F\x72\x20\x74\x68\x65\x20\x62\x61\x6E\x21","\x49\x20\x61\x6D\x20\x75\x6E\x61\x62\x6C\x65\x20\x74\x6F\x20\x62\x61\x6E\x20\x74\x68\x69\x73\x20\x75\x73\x65\x72\x2E\x20\x50\x6C\x65\x61\x73\x65\x20\x65\x6E\x73\x75\x72\x65\x20\x74\x68\x61\x74\x20\x6D\x79\x20\x63\x75\x72\x72\x65\x6E\x74\x20\x72\x6F\x6C\x65\x20\x69\x73\x20\x68\x69\x67\x68\x65\x72\x20\x74\x68\x61\x6E\x20\x74\x68\x65\x6D\x20\x61\x6E\x64\x20\x68\x61\x73\x20\x74\x68\x65\x20\x70\x65\x72\x6D\x69\x73\x73\x69\x6F\x6E\x20\x74\x6F\x20\x62\x61\x6E\x20\x6D\x65\x6D\x62\x65\x72\x73\x21","\x50\x6C\x65\x61\x73\x65\x20\x6D\x65\x6E\x74\x69\x6F\x6E\x20\x74\x68\x65\x20\x75\x73\x65\x72\x20\x74\x68\x61\x74\x20\x79\x6F\x75\x20\x77\x61\x6E\x74\x20\x74\x6F\x20\x62\x61\x6E\x21","\x54\x68\x65\x20\x75\x73\x65\x72\x20\x79\x6F\x75\x20\x61\x72\x65\x20\x74\x72\x79\x69\x6E\x67\x20\x74\x6F\x20\x62\x61\x6E\x20\x68\x61\x73\x20\x74\x68\x65\x20\x73\x61\x6D\x65\x20\x6F\x72\x20\x68\x69\x67\x68\x65\x72\x20\x61\x63\x63\x65\x73\x73\x20\x6C\x65\x76\x65\x6C\x20\x74\x68\x61\x6E\x20\x79\x6F\x75\x21","\x62\x61\x6E\x6E\x61\x62\x6C\x65","\x24\x7B\x70\x72\x65\x66\x69\x78\x7D\x6D\x75\x74\x65","\x67\x65\x6E\x65\x72\x61\x6C","\x41\x44\x4D\x49\x4E\x49\x53\x54\x52\x41\x54\x4F\x52","\x68\x61\x73\x50\x65\x72\x6D\x69\x73\x73\x69\x6F\x6E","\x4D\x75\x74\x65\x20\x46\x61\x69\x6C\x75\x72\x65","\x54\x68\x65\x20\x75\x73\x65\x72\x20\x79\x6F\x75\x20\x61\x72\x65\x20\x74\x72\x79\x69\x6E\x67\x20\x74\x6F\x20\x6D\x75\x74\x65\x20\x68\x61\x73\x20\x74\x68\x65\x20\x70\x65\x72\x6D\x69\x73\x73\x69\x6F\x6E\x20\x60\x41\x44\x4D\x49\x4E\x53\x54\x52\x41\x54\x4F\x52\x60\x20\x74\x68\x61\x74\x20\x61\x6C\x6C\x6F\x77\x73\x20\x74\x68\x65\x20\x75\x73\x65\x72\x20\x74\x6F\x20\x62\x65\x20\x61\x62\x6C\x65\x20\x74\x6F\x20\x62\x79\x70\x61\x73\x73\x20\x74\x68\x65\x20\x6D\x75\x74\x65\x21","\x53\x45\x4E\x44\x5F\x4D\x45\x53\x53\x41\x47\x45\x53","\x70\x65\x72\x6D\x69\x73\x73\x69\x6F\x6E\x73\x46\x6F\x72","\x4D\x75\x74\x65\x20\x53\x75\x63\x63\x65\x73\x73\x21","\x24\x7B\x6D\x65\x6E\x74\x69\x6F\x6E\x65\x64\x6D\x65\x6D\x62\x65\x72\x7D\x20\x68\x61\x73\x20\x62\x65\x65\x6E\x20\x6D\x75\x74\x65\x64\x20\x69\x6E\x20\x74\x68\x65\x20\x73\x65\x72\x76\x65\x72\x21","\x55\x73\x65\x72\x20\x68\x61\x73\x20\x62\x65\x65\x6E\x20\x6D\x75\x74\x65\x64\x21","\x6F\x76\x65\x72\x77\x72\x69\x74\x65\x50\x65\x72\x6D\x69\x73\x73\x69\x6F\x6E\x73","\x4D\x75\x74\x65\x20\x46\x61\x69\x6C\x75\x72\x65\x21","\x54\x68\x65\x20\x75\x73\x65\x72\x20\x79\x6F\x75\x20\x61\x72\x65\x20\x74\x72\x79\x69\x6E\x67\x20\x74\x6F\x20\x6D\x75\x74\x65\x20\x69\x73\x20\x61\x6C\x72\x65\x61\x64\x79\x20\x6D\x75\x74\x65\x64\x21","\x50\x6C\x65\x61\x73\x65\x20\x69\x6E\x63\x6C\x75\x64\x65\x20\x74\x68\x65\x20\x72\x65\x61\x73\x6F\x6E\x20\x66\x6F\x72\x20\x74\x68\x65\x20\x6D\x75\x74\x65\x21","\x50\x6C\x65\x61\x73\x65\x20\x6D\x65\x6E\x74\x69\x6F\x6E\x20\x74\x68\x65\x20\x75\x73\x65\x72\x20\x74\x68\x61\x74\x20\x79\x6F\x75\x20\x77\x61\x6E\x74\x20\x74\x6F\x20\x6D\x75\x74\x65\x21","\x54\x68\x65\x20\x75\x73\x65\x72\x20\x79\x6F\x75\x20\x61\x72\x65\x20\x74\x72\x79\x69\x6E\x67\x20\x74\x6F\x20\x6D\x75\x74\x65\x20\x68\x61\x73\x20\x74\x68\x65\x20\x73\x61\x6D\x65\x20\x6F\x72\x20\x68\x69\x67\x68\x65\x72\x20\x61\x63\x63\x65\x73\x73\x20\x6C\x65\x76\x65\x6C\x20\x74\x68\x61\x6E\x20\x79\x6F\x75\x21","\x54\x68\x69\x73\x20\x63\x6F\x6D\x6D\x61\x6E\x64\x20\x69\x73\x20\x6F\x6E\x6C\x79\x20\x66\x6F\x72\x20\x61\x63\x63\x65\x73\x73\x20\x6C\x65\x76\x65\x6C\x20\x32\x20\x61\x6E\x64\x20\x61\x62\x6F\x76\x65\x21","\x24\x7B\x70\x72\x65\x66\x69\x78\x7D\x75\x6E\x6D\x75\x74\x65","\x55\x6E\x6D\x75\x74\x65\x20\x46\x61\x69\x6C\x75\x72\x65\x21","\x54\x68\x65\x20\x75\x73\x65\x72\x20\x79\x6F\x75\x20\x61\x72\x65\x20\x74\x72\x79\x69\x6E\x67\x20\x74\x6F\x20\x75\x6E\x6D\x75\x74\x65\x20\x69\x73\x20\x6E\x6F\x74\x20\x65\x76\x65\x6E\x20\x6D\x75\x74\x65\x64\x21","\x55\x6E\x6D\x75\x74\x65\x20\x53\x75\x63\x63\x65\x73\x73\x21","\x24\x7B\x6D\x65\x6E\x74\x69\x6F\x6E\x65\x64\x6D\x65\x6D\x62\x65\x72\x7D\x20\x68\x61\x73\x20\x62\x65\x65\x6E\x20\x75\x6E\x6D\x75\x74\x65\x64\x20\x69\x6E\x20\x74\x68\x65\x20\x73\x65\x72\x76\x65\x72\x21","\x55\x73\x65\x72\x20\x68\x61\x73\x20\x62\x65\x65\x6E\x20\x75\x6E\x6D\x75\x74\x65\x64\x21","\x50\x6C\x65\x61\x73\x65\x20\x69\x6E\x63\x6C\x75\x64\x65\x20\x74\x68\x65\x20\x72\x65\x61\x73\x6F\x6E\x20\x66\x6F\x72\x20\x79\x6F\x75\x72\x20\x75\x6E\x6D\x75\x74\x65\x21","\x50\x6C\x65\x61\x73\x65\x20\x6D\x65\x6E\x74\x69\x6F\x6E\x20\x74\x68\x65\x20\x75\x73\x65\x72\x20\x74\x68\x61\x74\x20\x79\x6F\x75\x20\x77\x61\x6E\x74\x20\x74\x6F\x20\x75\x6E\x6D\x75\x74\x65\x21","\x54\x68\x65\x20\x6D\x65\x6D\x62\x65\x72\x20\x79\x6F\x75\x20\x61\x72\x65\x20\x74\x72\x79\x69\x6E\x67\x20\x74\x6F\x20\x75\x6E\x6D\x75\x74\x65\x20\x69\x73\x20\x6E\x6F\x74\x20\x65\x76\x65\x6E\x20\x6D\x75\x74\x65\x64\x21","\x54\x68\x69\x73\x20\x63\x6F\x6D\x6D\x61\x6E\x64\x20\x69\x73\x20\x6F\x6E\x6C\x79\x20\x75\x73\x61\x62\x6C\x65\x20\x62\x79\x20\x61\x63\x63\x65\x73\x73\x20\x6C\x65\x76\x65\x6C\x20\x32\x20\x61\x6E\x64\x20\x61\x62\x6F\x76\x65\x21","\x24\x7B\x70\x72\x65\x66\x69\x78\x7D\x6C\x6F\x63\x6B\x64\x6F\x77\x6E","\x4C\x6F\x63\x6B\x64\x6F\x77\x6E\x20\x53\x75\x63\x63\x65\x73\x73\x21","\x23\x24\x7B\x74\x61\x72\x67\x65\x74\x63\x68\x61\x6E\x6E\x65\x6C\x7D\x20\x69\x73\x20\x6E\x6F\x77\x20\x69\x6E\x20\x6C\x6F\x63\x6B\x64\x6F\x77\x6E\x20\x6D\x6F\x64\x65\x21","\x43\x68\x61\x6E\x6E\x65\x6C\x20\x4C\x6F\x63\x6B\x64\x6F\x77\x6E\x21","\x4C\x6F\x63\x6B\x64\x6F\x77\x6E\x20\x43\x68\x61\x6E\x6E\x65\x6C","\x23\x24\x7B\x74\x61\x72\x67\x65\x74\x63\x68\x61\x6E\x6E\x65\x6C\x7D","\x4C\x6F\x63\x6B\x64\x6F\x77\x6E\x20\x46\x61\x69\x6C\x75\x72\x65\x21","\x54\x68\x65\x20\x63\x68\x61\x6E\x6E\x65\x6C\x20\x79\x6F\x75\x20\x61\x72\x65\x20\x74\x72\x79\x69\x6E\x67\x20\x74\x6F\x20\x6C\x6F\x63\x6B\x64\x6F\x77\x6E\x20\x64\x6F\x65\x73\x20\x6E\x6F\x74\x20\x65\x78\x69\x73\x74\x21","\x50\x6C\x65\x61\x73\x65\x20\x69\x6E\x63\x6C\x75\x64\x65\x20\x74\x68\x65\x20\x63\x68\x61\x6E\x6E\x65\x6C\x20\x79\x6F\x75\x20\x77\x61\x6E\x74\x20\x74\x6F\x20\x6C\x6F\x63\x6B\x64\x6F\x77\x6E\x21","\x24\x7B\x70\x72\x65\x66\x69\x78\x7D\x75\x6E\x6C\x6F\x63\x6B\x64\x6F\x77\x6E","\x62\x6F\x74\x2D\x63\x6F\x6D\x6D\x61\x6E\x64\x73","\x74\x65\x73\x74","\x55\x6E\x6C\x6F\x63\x6B\x64\x6F\x77\x6E\x20\x53\x75\x63\x63\x65\x73\x73\x21","\x23\x24\x7B\x74\x61\x72\x67\x65\x74\x63\x68\x61\x6E\x6E\x65\x6C\x7D\x20\x69\x73\x20\x6E\x6F\x77\x20\x6E\x6F\x20\x6C\x6F\x6E\x67\x65\x72\x20\x69\x6E\x20\x6C\x6F\x63\x6B\x64\x6F\x77\x6E\x20\x6D\x6F\x64\x65\x21","\x43\x68\x61\x6E\x6E\x65\x6C\x20\x55\x6E\x6C\x6F\x63\x6B\x64\x6F\x77\x6E\x21","\x55\x6E\x6C\x6F\x63\x6B\x64\x6F\x77\x6E\x20\x43\x68\x61\x6E\x6E\x65\x6C","\x55\x6E\x6C\x6F\x63\x6B\x64\x6F\x77\x6E\x20\x46\x61\x69\x6C\x75\x72\x65\x21","\x54\x68\x65\x20\x63\x68\x61\x6E\x6E\x65\x6C\x20\x79\x6F\x75\x20\x61\x72\x65\x20\x74\x72\x79\x69\x6E\x67\x20\x74\x6F\x20\x75\x6E\x6C\x6F\x63\x6B\x64\x6F\x77\x6E\x20\x69\x73\x20\x6E\x6F\x74\x20\x75\x6E\x6C\x6F\x63\x6B\x61\x62\x6C\x65\x21","\x55\x6E\x6C\x63\x6B\x64\x6F\x77\x6E\x20\x46\x61\x69\x6C\x75\x72\x65\x21","\x54\x68\x65\x20\x63\x68\x61\x6E\x6E\x65\x6C\x20\x79\x6F\x75\x20\x61\x72\x65\x20\x74\x72\x79\x69\x6E\x67\x20\x74\x6F\x20\x75\x6E\x6C\x6F\x63\x6B\x64\x6F\x77\x6E\x20\x64\x6F\x65\x73\x20\x6E\x6F\x74\x20\x65\x78\x69\x73\x74\x21","\x50\x6C\x65\x61\x73\x65\x20\x69\x6E\x63\x6C\x75\x64\x65\x20\x74\x68\x65\x20\x63\x68\x61\x6E\x6E\x65\x6C\x20\x79\x6F\x75\x20\x77\x61\x6E\x74\x20\x74\x6F\x20\x75\x6E\x6C\x6F\x63\x6B\x64\x6F\x77\x6E\x21","\x24\x7B\x70\x72\x65\x66\x69\x78\x7D\x61\x64\x64\x6D\x6F\x64","\x41\x64\x64\x6D\x6F\x64\x20\x46\x61\x69\x6C\x75\x72\x65\x21","\x54\x68\x65\x20\x75\x73\x65\x72\x20\x79\x6F\x75\x20\x61\x72\x65\x20\x74\x72\x79\x69\x6E\x67\x20\x74\x6F\x20\x61\x64\x64\x6D\x6F\x64\x20\x69\x73\x20\x61\x6C\x72\x65\x61\x64\x79\x20\x61\x20\x62\x6F\x74\x20\x6D\x6F\x64\x65\x72\x61\x74\x6F\x72\x21","\x41\x64\x64\x6D\x6F\x64\x20\x53\x75\x63\x63\x65\x73\x73\x21","\x24\x7B\x6D\x65\x6E\x74\x69\x6F\x6E\x65\x64\x6D\x65\x6D\x62\x65\x72\x7D\x20\x69\x73\x20\x6E\x6F\x77\x20\x61\x20\x62\x6F\x74\x20\x6D\x6F\x64\x65\x72\x61\x74\x6F\x72\x21","\x4E\x65\x77\x20\x62\x6F\x74\x20\x6D\x6F\x64\x65\x72\x61\x74\x6F\x72\x21","\x61\x64\x64\x52\x6F\x6C\x65","\x50\x6C\x65\x61\x73\x65\x20\x6D\x65\x6E\x74\x69\x6F\x6E\x20\x74\x68\x65\x20\x75\x73\x65\x72\x20\x74\x68\x61\x74\x20\x79\x6F\x75\x20\x77\x61\x6E\x74\x20\x74\x6F\x20\x61\x64\x64\x6D\x6F\x64\x21","\x54\x68\x69\x73\x20\x63\x6F\x6D\x6D\x61\x6E\x64\x20\x69\x73\x20\x6F\x6E\x6C\x79\x20\x75\x73\x61\x62\x6C\x79\x20\x62\x79\x20\x61\x63\x63\x65\x73\x73\x20\x6C\x65\x76\x65\x6C\x20\x33\x21","\x24\x7B\x70\x72\x65\x66\x69\x78\x7D\x64\x65\x6C\x6D\x6F\x64","\x44\x65\x6C\x6D\x6F\x64\x20\x53\x75\x63\x63\x65\x73\x73\x21","\x24\x7B\x6D\x65\x6E\x74\x69\x6F\x6E\x65\x64\x6D\x65\x6D\x62\x65\x72\x7D\x20\x69\x73\x20\x6E\x6F\x77\x20\x6E\x6F\x20\x6C\x6F\x6E\x67\x65\x72\x20\x61\x20\x62\x6F\x74\x20\x6D\x6F\x64\x65\x72\x61\x74\x6F\x72\x21","\x52\x65\x6D\x6F\x76\x65\x64\x20\x62\x6F\x74\x20\x6D\x6F\x64\x65\x72\x61\x74\x6F\x72\x21","\x72\x65\x6D\x6F\x76\x65\x52\x6F\x6C\x65","\x44\x65\x6C\x6D\x6F\x64\x20\x46\x61\x69\x6C\x75\x72\x65\x21","\x54\x68\x65\x20\x75\x73\x65\x72\x20\x79\x6F\x75\x20\x61\x72\x65\x20\x74\x72\x79\x69\x6E\x67\x20\x74\x6F\x20\x64\x65\x6C\x65\x74\x65\x20\x6D\x6F\x64\x20\x69\x73\x20\x6E\x6F\x74\x20\x65\x76\x65\x6E\x20\x61\x20\x6D\x6F\x64\x65\x72\x61\x74\x6F\x72\x21","\x50\x6C\x65\x61\x73\x65\x20\x6D\x65\x6E\x74\x69\x6F\x6E\x20\x74\x68\x65\x20\x75\x73\x65\x72\x20\x74\x68\x61\x74\x20\x79\x6F\x75\x20\x77\x61\x6E\x74\x20\x74\x6F\x20\x64\x65\x6C\x65\x74\x65\x20\x6D\x6F\x64\x21","\x54\x68\x69\x73\x20\x63\x6F\x6D\x6D\x61\x6E\x64\x20\x69\x73\x20\x6F\x6E\x6C\x79\x20\x75\x73\x61\x62\x6C\x65\x20\x62\x79\x20\x61\x63\x63\x65\x73\x73\x20\x6C\x65\x76\x65\x6C\x20\x33\x21","\x24\x7B\x70\x72\x65\x66\x69\x78\x7D\x75\x70\x74\x69\x6D\x65","\x75\x70\x74\x69\x6D\x65","\x24\x7B\x68\x6F\x75\x72\x73\x7D\x20\x68\x6F\x75\x72\x73\x2C\x20\x24\x7B\x6D\x69\x6E\x75\x74\x65\x73\x7D\x20\x6D\x69\x6E\x75\x74\x65\x73\x20\x61\x6E\x64\x20\x24\x7B\x73\x65\x63\x6F\x6E\x64\x73\x7D\x20\x73\x65\x63\x6F\x6E\x64\x73","\x55\x70\x74\x69\x6D\x65\x20\x46\x6F\x75\x6E\x64\x21","\x54\x68\x65\x20\x62\x6F\x74\x20\x68\x61\x73\x20\x62\x65\x65\x6E\x20\x6F\x6E\x6C\x69\x6E\x65\x20\x61\x6E\x64\x20\x72\x75\x6E\x6E\x69\x6E\x67\x20\x66\x6F\x72\x20\x24\x7B\x75\x70\x74\x69\x6D\x65\x7D","\x24\x7B\x70\x72\x65\x66\x69\x78\x7D\x72\x65\x62\x6F\x6F\x74","\x49\x20\x61\x6D\x20\x62\x61\x63\x6B\x21","\x42\x6F\x74\x20\x53\x75\x63\x63\x65\x73\x73\x66\x75\x6C\x6C\x79\x20\x52\x65\x62\x6F\x6F\x74\x65\x64","\x65\x6E\x76","\x6C\x6F\x67\x69\x6E","\x64\x65\x73\x74\x72\x6F\x79","\x49\x20\x77\x69\x6C\x6C\x20\x62\x65\x20\x62\x61\x63\x6B\x21\x21","\x42\x6F\x74\x20\x52\x65\x62\x6F\x6F\x74\x69\x6E\x67\x2E\x2E","\x54\x68\x69\x73\x20\x63\x6F\x6D\x6D\x61\x6E\x64\x20\x69\x73\x20\x6F\x6E\x6C\x79\x20\x75\x73\x61\x62\x6C\x65\x20\x62\x79\x20\x41\x63\x63\x65\x73\x73\x20\x4C\x65\x76\x65\x6C\x20\x33","\x24\x7B\x70\x72\x65\x66\x69\x78\x7D\x73\x68\x75\x74\x64\x6F\x77\x6E","\x42\x79\x65\x20\x42\x79\x65\x20\x57\x61\x74\x65\x72\x20\x59\x54\x20\x44\x69\x73\x63\x6F\x72\x64","\x42\x6F\x74\x20\x53\x68\x75\x74\x74\x69\x6E\x67\x20\x44\x6F\x77\x6E\x2E\x2E"];const Discord=require(_0x8cb9[0]);const {prefix,token,Owners,Bot}=require(_0x8cb9[1]);const client= new Discord.Client();client[_0x8cb9[8]](_0x8cb9[2],()=>{console[_0x8cb9[4]](_0x8cb9[3]);client[_0x8cb9[7]][_0x8cb9[6]](_0x8cb9[5])});client[_0x8cb9[8]](_0x8cb9[9],()=>{console[_0x8cb9[4]](error);message[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[10],description:_0x8cb9[11],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[13]}}})});client[_0x8cb9[8]](_0x8cb9[16],(_0xaffex3)=>{if(_0xaffex3){if(!_0xaffex3[_0x8cb9[18]][_0x8cb9[17]]){_0xaffex3[_0x8cb9[31]][_0x8cb9[30]][_0x8cb9[29]](_0x8cb9[27],_0x8cb9[28])[_0x8cb9[14]]({embed:{color:3447003,title:_0x8cb9[19],fields:[{name:_0x8cb9[20],value:_0x8cb9[21]},{name:_0x8cb9[22],value:_0x8cb9[23]},{name:_0x8cb9[24],value:_0x8cb9[25]}],timestamp: new Date(),footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}};if(_0xaffex3[_0x8cb9[32]]=== _0x8cb9[33]){_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0x7CFC00,title:_0x8cb9[34],description:_0x8cb9[35],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}});_0xaffex3[_0x8cb9[18]][_0x8cb9[14]]({embed:{color:3447003,author:{name:client[_0x8cb9[7]][_0x8cb9[36]],icon_url:client[_0x8cb9[7]][_0x8cb9[12]]},title:_0x8cb9[37],url:_0x8cb9[38],description:_0x8cb9[39],fields:[{name:_0x8cb9[5],value:_0x8cb9[40]},{name:_0x8cb9[41],value:_0x8cb9[42]},{name:_0x8cb9[43],value:_0x8cb9[44]},{name:_0x8cb9[45],value:_0x8cb9[46]},{name:_0x8cb9[47],value:_0x8cb9[48]},{name:_0x8cb9[49],value:_0x8cb9[50]},{name:_0x8cb9[51],value:_0x8cb9[52]},{name:_0x8cb9[53],value:_0x8cb9[54]},{name:_0x8cb9[55],value:_0x8cb9[56]},{name:_0x8cb9[57],value:_0x8cb9[58]},{name:_0x8cb9[59],value:_0x8cb9[60]},{name:_0x8cb9[61],value:_0x8cb9[62]},{name:_0x8cb9[63],value:_0x8cb9[64]},{name:_0x8cb9[65],value:_0x8cb9[66]},{name:_0x8cb9[67],value:_0x8cb9[68]}],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}else {if(_0xaffex3[_0x8cb9[32]][_0x8cb9[70]](_0x8cb9[69])){const _0xaffex4=_0xaffex3[_0x8cb9[32]][_0x8cb9[74]](prefix[_0x8cb9[73]])[_0x8cb9[72]]()[_0x8cb9[71]](/ +/g);let _0xaffex5=_0xaffex4[_0x8cb9[74]](1)[_0x8cb9[76]](_0x8cb9[75]);let _0xaffex6=[_0x8cb9[77],_0x8cb9[78],_0x8cb9[79],_0x8cb9[80],_0x8cb9[81],_0x8cb9[82],_0x8cb9[83]];let _0xaffex7=Math[_0x8cb9[85]]((Math[_0x8cb9[84]]()* _0xaffex6[_0x8cb9[73]]));if(_0xaffex5){_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0x7CFC00,title:_0x8cb9[86],fields:[{name:_0x8cb9[87],value:_0x8cb9[88]},{name:_0x8cb9[89],value:_0x8cb9[90]}],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[91],description:_0x8cb9[92],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {if(_0xaffex3[_0x8cb9[32]]=== _0x8cb9[93]){const _0xaffex8=_0xaffex3[_0x8cb9[31]];const _0xaffex9=_0xaffex8[_0x8cb9[94]];_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0x7CFC00,title:_0x8cb9[95],description:_0x8cb9[96],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}else {if(_0xaffex3[_0x8cb9[32]][_0x8cb9[70]](_0x8cb9[97])){const _0xaffexa=_0xaffex3[_0x8cb9[100]][_0x8cb9[99]][_0x8cb9[98]]();const _0xaffex4=_0xaffex3[_0x8cb9[32]][_0x8cb9[74]](prefix[_0x8cb9[73]])[_0x8cb9[72]]()[_0x8cb9[71]](/ +/g);let _0xaffexb=_0xaffex4[_0x8cb9[74]](1)[_0x8cb9[76]](_0x8cb9[75]);if(_0xaffexb){if(_0xaffexa){if(Owners[_0x8cb9[102]](_0xaffexa[_0x8cb9[101]])){_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0x7CFC00,title:_0x8cb9[103],description:_0x8cb9[104],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}else {if(_0xaffexa[_0x8cb9[107]][_0x8cb9[106]]((_0xaffexc)=>[_0x8cb9[105]][_0x8cb9[102]](_0xaffexc[_0x8cb9[27]]))){_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0x7CFC00,title:_0x8cb9[103],description:_0x8cb9[108],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0x7CFC00,title:_0x8cb9[103],description:_0x8cb9[109],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}}}else {if(Owners[_0x8cb9[102]](_0xaffex3[_0x8cb9[110]][_0x8cb9[101]])){_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0x7CFC00,title:_0x8cb9[111],description:_0x8cb9[112],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}else {if(_0xaffex3[_0x8cb9[110]][_0x8cb9[107]][_0x8cb9[106]]((_0xaffexc)=>[_0x8cb9[105]][_0x8cb9[102]](_0xaffexc[_0x8cb9[27]]))){_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0x7CFC00,title:_0x8cb9[111],description:_0x8cb9[113],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0x7CFC00,title:_0x8cb9[111],description:_0x8cb9[114],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}}}else {if(_0xaffex3[_0x8cb9[32]][_0x8cb9[70]](_0x8cb9[115])){const _0xaffexa=_0xaffex3[_0x8cb9[100]][_0x8cb9[99]][_0x8cb9[98]]();const _0xaffex4=_0xaffex3[_0x8cb9[32]][_0x8cb9[74]](prefix[_0x8cb9[73]])[_0x8cb9[72]]()[_0x8cb9[71]](/ +/g);const _0xaffexd=_0xaffex3[_0x8cb9[31]][_0x8cb9[30]][_0x8cb9[29]](_0x8cb9[27],_0x8cb9[116]);let _0xaffexe=_0xaffex4[_0x8cb9[74]](2)[_0x8cb9[76]](_0x8cb9[75]);if(Owners[_0x8cb9[102]](_0xaffex3[_0x8cb9[18]][_0x8cb9[101]])){if(_0xaffexa){if(Owners[_0x8cb9[102]](_0xaffexa[_0x8cb9[101]])){_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[117],description:_0x8cb9[118],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}else {if(_0xaffexa[_0x8cb9[119]]){if(_0xaffexe){_0xaffexa[_0x8cb9[14]](_0x8cb9[132])[_0x8cb9[131]](()=>{_0xaffex3[_0x8cb9[120]]();_0xaffexa[_0x8cb9[121]]();_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0x7CFC00,title:_0x8cb9[122],description:_0x8cb9[123],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}});_0xaffexd[_0x8cb9[14]]({embed:{color:3447003,title:_0x8cb9[124],fields:[{name:_0x8cb9[125],value:_0x8cb9[126]},{name:_0x8cb9[127],value:_0x8cb9[128]},{name:_0x8cb9[129],value:_0x8cb9[130]}],timestamp: new Date(),footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})})}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[91],description:_0x8cb9[133],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[117],description:_0x8cb9[134],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[91],description:_0x8cb9[135],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {if(_0xaffex3[_0x8cb9[110]][_0x8cb9[107]][_0x8cb9[106]]((_0xaffexc)=>[_0x8cb9[105]][_0x8cb9[102]](_0xaffexc[_0x8cb9[27]]))){if(_0xaffexa){if(Owners[_0x8cb9[102]](_0xaffexa[_0x8cb9[101]])){_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[117],description:_0x8cb9[118],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}else {if(_0xaffexa[_0x8cb9[119]]){if(_0xaffexa[_0x8cb9[107]][_0x8cb9[106]]((_0xaffexc)=>[_0x8cb9[105]][_0x8cb9[102]](_0xaffexc[_0x8cb9[27]]))){_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[117],description:_0x8cb9[118],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}else {if(_0xaffexe){_0xaffexa[_0x8cb9[14]](_0x8cb9[132])[_0x8cb9[131]](()=>{_0xaffex3[_0x8cb9[120]]();_0xaffexa[_0x8cb9[121]]();_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0x7CFC00,title:_0x8cb9[122],description:_0x8cb9[123],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}});_0xaffexd[_0x8cb9[14]]({embed:{color:3447003,title:_0x8cb9[124],fields:[{name:_0x8cb9[125],value:_0x8cb9[126]},{name:_0x8cb9[127],value:_0x8cb9[128]},{name:_0x8cb9[129],value:_0x8cb9[130]}],timestamp: new Date(),footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})})}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[91],description:_0x8cb9[133],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[117],description:_0x8cb9[134],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[91],description:_0x8cb9[135],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[136],description:_0x8cb9[137],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}}else {if(_0xaffex3[_0x8cb9[32]][_0x8cb9[70]](_0x8cb9[138])){const _0xaffexa=_0xaffex3[_0x8cb9[100]][_0x8cb9[99]][_0x8cb9[98]]();const _0xaffex4=_0xaffex3[_0x8cb9[32]][_0x8cb9[74]](prefix[_0x8cb9[73]])[_0x8cb9[72]]()[_0x8cb9[71]](/ +/g);const _0xaffexd=_0xaffex3[_0x8cb9[31]][_0x8cb9[30]][_0x8cb9[29]](_0x8cb9[27],_0x8cb9[116]);let _0xaffexe=_0xaffex4[_0x8cb9[74]](2)[_0x8cb9[76]](_0x8cb9[75]);if(Owners[_0x8cb9[102]](_0xaffex3[_0x8cb9[18]][_0x8cb9[101]])){if(_0xaffexa){if(Owners[_0x8cb9[102]](_0xaffexa[_0x8cb9[101]])){_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[139],description:_0x8cb9[118],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}else {if(_0xaffexa[_0x8cb9[119]]){if(_0xaffexe){_0xaffexa[_0x8cb9[14]](_0x8cb9[144])[_0x8cb9[131]](()=>{_0xaffex3[_0x8cb9[120]]();_0xaffexa[_0x8cb9[140]]();_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0x7CFC00,title:_0x8cb9[141],description:_0x8cb9[142],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}});_0xaffexd[_0x8cb9[14]]({embed:{color:3447003,title:_0x8cb9[143],fields:[{name:_0x8cb9[125],value:_0x8cb9[126]},{name:_0x8cb9[127],value:_0x8cb9[128]},{name:_0x8cb9[129],value:_0x8cb9[130]}],timestamp: new Date(),footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})})}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[91],description:_0x8cb9[145],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[139],description:_0x8cb9[146],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[91],description:_0x8cb9[147],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {if(_0xaffex3[_0x8cb9[110]][_0x8cb9[107]][_0x8cb9[106]]((_0xaffexc)=>[_0x8cb9[105]][_0x8cb9[102]](_0xaffexc[_0x8cb9[27]]))){if(_0xaffexa){if(Owners[_0x8cb9[102]](_0xaffexa[_0x8cb9[101]])){_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[139],description:_0x8cb9[148],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}else {if(_0xaffexa[_0x8cb9[149]]){if(_0xaffexa[_0x8cb9[107]][_0x8cb9[106]]((_0xaffexc)=>[_0x8cb9[105]][_0x8cb9[102]](_0xaffexc[_0x8cb9[27]]))){_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[139],description:_0x8cb9[148],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}else {if(_0xaffexe){_0xaffexa[_0x8cb9[14]](_0x8cb9[144])[_0x8cb9[131]](()=>{_0xaffex3[_0x8cb9[120]]();_0xaffexa[_0x8cb9[140]]();_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0x7CFC00,title:_0x8cb9[141],description:_0x8cb9[142],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}});_0xaffexd[_0x8cb9[14]]({embed:{color:3447003,title:_0x8cb9[143],fields:[{name:_0x8cb9[125],value:_0x8cb9[126]},{name:_0x8cb9[127],value:_0x8cb9[128]},{name:_0x8cb9[129],value:_0x8cb9[130]}],timestamp: new Date(),footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})})}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[91],description:_0x8cb9[145],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[139],description:_0x8cb9[146],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[91],description:_0x8cb9[147],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[136],description:_0x8cb9[137],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}}else {if(_0xaffex3[_0x8cb9[32]][_0x8cb9[70]](_0x8cb9[150])){const _0xaffexa=_0xaffex3[_0x8cb9[100]][_0x8cb9[99]][_0x8cb9[98]]();const _0xaffex4=_0xaffex3[_0x8cb9[32]][_0x8cb9[74]](prefix[_0x8cb9[73]])[_0x8cb9[72]]()[_0x8cb9[71]](/ +/g);const _0xaffexd=_0xaffex3[_0x8cb9[31]][_0x8cb9[30]][_0x8cb9[29]](_0x8cb9[27],_0x8cb9[116]);const _0xaffexf=_0xaffex3[_0x8cb9[31]][_0x8cb9[30]][_0x8cb9[29]](_0x8cb9[27],_0x8cb9[151]);let _0xaffexe=_0xaffex4[_0x8cb9[74]](2)[_0x8cb9[76]](_0x8cb9[75]);if(Owners[_0x8cb9[102]](_0xaffex3[_0x8cb9[18]][_0x8cb9[101]])){if(_0xaffexa){if(_0xaffexe){if(_0xaffexa[_0x8cb9[153]](_0x8cb9[152])){_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[154],description:_0x8cb9[155],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}else {if(_0xaffexf[_0x8cb9[157]](_0xaffexa)[_0x8cb9[153]](_0x8cb9[156])){_0xaffexf[_0x8cb9[161]](_0xaffexa,{READ_MESSAGES:true,SEND_MESSAGES:false})[_0x8cb9[131]](()=>{_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0x7CFC00,title:_0x8cb9[158],description:_0x8cb9[159],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}});_0xaffexd[_0x8cb9[14]]({embed:{color:3447003,title:_0x8cb9[160],fields:[{name:_0x8cb9[125],value:_0x8cb9[126]},{name:_0x8cb9[127],value:_0x8cb9[128]},{name:_0x8cb9[129],value:_0x8cb9[130]}],timestamp: new Date(),footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})})}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[162],description:_0x8cb9[163],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[91],description:_0x8cb9[164],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[91],description:_0x8cb9[165],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {if(_0xaffex3[_0x8cb9[110]][_0x8cb9[107]][_0x8cb9[106]]((_0xaffexc)=>[_0x8cb9[105]][_0x8cb9[102]](_0xaffexc[_0x8cb9[27]]))){if(_0xaffexa){if(Owners[_0x8cb9[102]](_0xaffexa[_0x8cb9[101]])){_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[162],description:_0x8cb9[166],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}else {if(_0xaffexa[_0x8cb9[107]][_0x8cb9[106]]((_0xaffexc)=>[_0x8cb9[105]][_0x8cb9[102]](_0xaffexc[_0x8cb9[27]]))){_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[162],description:_0x8cb9[166],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}else {if(_0xaffexa[_0x8cb9[153]](_0x8cb9[152])){_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[154],description:_0x8cb9[155],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}else {if(_0xaffexf[_0x8cb9[157]](_0xaffexa)[_0x8cb9[153]](_0x8cb9[156])){_0xaffexf[_0x8cb9[161]](_0xaffexa,{READ_MESSAGES:true,SEND_MESSAGES:false})[_0x8cb9[131]](()=>{_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0x7CFC00,title:_0x8cb9[158],description:_0x8cb9[159],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}});_0xaffexd[_0x8cb9[14]]({embed:{color:3447003,title:_0x8cb9[160],fields:[{name:_0x8cb9[125],value:_0x8cb9[126]},{name:_0x8cb9[127],value:_0x8cb9[128]},{name:_0x8cb9[129],value:_0x8cb9[130]}],timestamp: new Date(),footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})})}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[162],description:_0x8cb9[163],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}}}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[91],description:_0x8cb9[165],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[136],description:_0x8cb9[167],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}}else {if(_0xaffex3[_0x8cb9[32]][_0x8cb9[70]](_0x8cb9[168])){const _0xaffexa=_0xaffex3[_0x8cb9[100]][_0x8cb9[99]][_0x8cb9[98]]();const _0xaffexf=_0xaffex3[_0x8cb9[31]][_0x8cb9[30]][_0x8cb9[29]](_0x8cb9[27],_0x8cb9[151]);const _0xaffex4=_0xaffex3[_0x8cb9[32]][_0x8cb9[74]](prefix[_0x8cb9[73]])[_0x8cb9[72]]()[_0x8cb9[71]](/ +/g);const _0xaffexd=_0xaffex3[_0x8cb9[31]][_0x8cb9[30]][_0x8cb9[29]](_0x8cb9[27],_0x8cb9[116]);let _0xaffexe=_0xaffex4[_0x8cb9[74]](2)[_0x8cb9[76]](_0x8cb9[75]);if(Owners[_0x8cb9[102]](_0xaffex3[_0x8cb9[18]][_0x8cb9[101]])){if(_0xaffexa){if(_0xaffexe){if(_0xaffexf[_0x8cb9[157]](_0xaffexa)[_0x8cb9[153]](_0x8cb9[156])){_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[169],description:_0x8cb9[170],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}else {_0xaffexf[_0x8cb9[161]](_0xaffexa,{SEND_MESSAGES:null})[_0x8cb9[131]](()=>{_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0x7CFC00,title:_0x8cb9[171],description:_0x8cb9[172],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}});_0xaffexd[_0x8cb9[14]]({embed:{color:3447003,title:_0x8cb9[173],fields:[{name:_0x8cb9[125],value:_0x8cb9[126]},{name:_0x8cb9[127],value:_0x8cb9[128]},{name:_0x8cb9[129],value:_0x8cb9[130]}],timestamp: new Date(),footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})})}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[91],description:_0x8cb9[174],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[91],description:_0x8cb9[175],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {if(_0xaffex3[_0x8cb9[110]][_0x8cb9[107]][_0x8cb9[106]]((_0xaffexc)=>[_0x8cb9[105]][_0x8cb9[102]](_0xaffexc[_0x8cb9[27]]))){if(_0xaffexa){if(_0xaffexe){if(_0xaffexf[_0x8cb9[157]](_0xaffexa)[_0x8cb9[153]](_0x8cb9[156])){_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[169],description:_0x8cb9[176],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}else {_0xaffexf[_0x8cb9[161]](_0xaffexa,{SEND_MESSAGES:null})[_0x8cb9[131]](()=>{_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0x7CFC00,title:_0x8cb9[158],description:_0x8cb9[172],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}});_0xaffexd[_0x8cb9[14]]({embed:{color:3447003,title:_0x8cb9[173],fields:[{name:_0x8cb9[125],value:_0x8cb9[126]},{name:_0x8cb9[127],value:_0x8cb9[128]},{name:_0x8cb9[129],value:_0x8cb9[130]}],timestamp: new Date(),footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})})}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[91],description:_0x8cb9[174],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[91],description:_0x8cb9[175],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[136],description:_0x8cb9[177],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}}else {if(_0xaffex3[_0x8cb9[32]][_0x8cb9[70]](_0x8cb9[178])){const _0xaffex4=_0xaffex3[_0x8cb9[32]][_0x8cb9[74]](prefix[_0x8cb9[73]])[_0x8cb9[72]]()[_0x8cb9[71]](/ +/g);const _0xaffexd=_0xaffex3[_0x8cb9[31]][_0x8cb9[30]][_0x8cb9[29]](_0x8cb9[27],_0x8cb9[116]);let _0xaffex10=_0xaffex4[_0x8cb9[74]](1)[_0x8cb9[76]](_0x8cb9[75]);const _0xaffex11=_0xaffex3[_0x8cb9[31]][_0x8cb9[30]][_0x8cb9[29]](_0x8cb9[27],(_0xaffex10));const _0xaffex8=_0xaffex3[_0x8cb9[31]];if(Owners[_0x8cb9[102]](_0xaffex3[_0x8cb9[18]][_0x8cb9[101]])){if(_0xaffex10){if(_0xaffex11){_0xaffex11[_0x8cb9[161]](_0xaffex8[_0x8cb9[101]],{SEND_MESSAGES:false})[_0x8cb9[131]](()=>{_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0x7CFC00,title:_0x8cb9[179],description:_0x8cb9[180],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}});_0xaffexd[_0x8cb9[14]]({embed:{color:3447003,title:_0x8cb9[181],fields:[{name:_0x8cb9[182],value:_0x8cb9[183]},{name:_0x8cb9[127],value:_0x8cb9[128]}],timestamp: new Date(),footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})})}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[184],description:_0x8cb9[185],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[91],description:_0x8cb9[186],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {if(_0xaffex3[_0x8cb9[110]][_0x8cb9[107]][_0x8cb9[106]]((_0xaffexc)=>[_0x8cb9[105]][_0x8cb9[102]](_0xaffexc[_0x8cb9[27]]))){if(_0xaffex10){if(_0xaffex11){_0xaffex11[_0x8cb9[161]](_0xaffex8[_0x8cb9[101]],{SEND_MESSAGES:false})[_0x8cb9[131]](()=>{_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0x7CFC00,title:_0x8cb9[179],description:_0x8cb9[180],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}});_0xaffexd[_0x8cb9[14]]({embed:{color:3447003,title:_0x8cb9[181],fields:[{name:_0x8cb9[182],value:_0x8cb9[183]},{name:_0x8cb9[127],value:_0x8cb9[128]}],timestamp: new Date(),footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})})}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[184],description:_0x8cb9[185],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[91],description:_0x8cb9[186],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[136],description:_0x8cb9[177],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}}else {if(_0xaffex3[_0x8cb9[32]][_0x8cb9[70]](_0x8cb9[187])){const _0xaffex4=_0xaffex3[_0x8cb9[32]][_0x8cb9[74]](prefix[_0x8cb9[73]])[_0x8cb9[72]]()[_0x8cb9[71]](/ +/g);const _0xaffexd=_0xaffex3[_0x8cb9[31]][_0x8cb9[30]][_0x8cb9[29]](_0x8cb9[27],_0x8cb9[116]);let _0xaffex10=_0xaffex4[_0x8cb9[74]](1)[_0x8cb9[76]](_0x8cb9[75]);const _0xaffex12=_0xaffex3[_0x8cb9[31]][_0x8cb9[30]][_0x8cb9[29]](_0x8cb9[27],(_0xaffex10));const _0xaffex8=_0xaffex3[_0x8cb9[31]];const _0xaffex13=[_0x8cb9[151],_0x8cb9[188],_0x8cb9[189]];if(Owners[_0x8cb9[102]](_0xaffex3[_0x8cb9[18]][_0x8cb9[101]])){if(_0xaffex10){if(_0xaffex12){if(_0xaffex13[_0x8cb9[102]](_0xaffex10)){_0xaffex12[_0x8cb9[161]](_0xaffex8[_0x8cb9[101]],{SEND_MESSAGES:null})[_0x8cb9[131]](()=>{_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0x7CFC00,title:_0x8cb9[190],description:_0x8cb9[191],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}});_0xaffexd[_0x8cb9[14]]({embed:{color:3447003,title:_0x8cb9[192],fields:[{name:_0x8cb9[193],value:_0x8cb9[183]},{name:_0x8cb9[127],value:_0x8cb9[128]}],timestamp: new Date(),footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})})}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[194],description:_0x8cb9[195],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[196],description:_0x8cb9[197],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[91],description:_0x8cb9[198],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {if(_0xaffex3[_0x8cb9[110]][_0x8cb9[107]][_0x8cb9[106]]((_0xaffexc)=>[_0x8cb9[105]][_0x8cb9[102]](_0xaffexc[_0x8cb9[27]]))){if(_0xaffex10){if(_0xaffex12){if(_0xaffex13[_0x8cb9[102]](_0xaffex10)){_0xaffex12[_0x8cb9[161]](_0xaffex8[_0x8cb9[101]],{SEND_MESSAGES:null})[_0x8cb9[131]](()=>{_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0x7CFC00,title:_0x8cb9[190],description:_0x8cb9[191],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}});_0xaffexd[_0x8cb9[14]]({embed:{color:3447003,title:_0x8cb9[192],fields:[{name:_0x8cb9[193],value:_0x8cb9[183]},{name:_0x8cb9[127],value:_0x8cb9[128]}],timestamp: new Date(),footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})})}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[194],description:_0x8cb9[195],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[194],description:_0x8cb9[197],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[91],description:_0x8cb9[198],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[136],description:_0x8cb9[177],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}}else {if(_0xaffex3[_0x8cb9[32]][_0x8cb9[70]](_0x8cb9[199])){const _0xaffexa=_0xaffex3[_0x8cb9[100]][_0x8cb9[99]][_0x8cb9[98]]();const _0xaffex14=_0xaffex3[_0x8cb9[31]][_0x8cb9[107]][_0x8cb9[29]](_0x8cb9[27],_0x8cb9[105]);const _0xaffexd=_0xaffex3[_0x8cb9[31]][_0x8cb9[30]][_0x8cb9[29]](_0x8cb9[27],_0x8cb9[116]);if(Owners[_0x8cb9[102]](_0xaffex3[_0x8cb9[18]][_0x8cb9[101]])){if(_0xaffexa){if(_0xaffexa[_0x8cb9[107]][_0x8cb9[106]]((_0xaffexc)=>[_0x8cb9[105]][_0x8cb9[102]](_0xaffexc[_0x8cb9[27]]))){_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[200],description:_0x8cb9[201],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}else {_0xaffexa[_0x8cb9[205]](_0xaffex14)[_0x8cb9[131]](()=>{_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0x7CFC00,title:_0x8cb9[202],description:_0x8cb9[203],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}});_0xaffexd[_0x8cb9[14]]({embed:{color:3447003,title:_0x8cb9[204],fields:[{name:_0x8cb9[125],value:_0x8cb9[126]},{name:_0x8cb9[127],value:_0x8cb9[128]}],timestamp: new Date(),footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})})}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[91],description:_0x8cb9[206],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[136],description:_0x8cb9[207],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {if(_0xaffex3[_0x8cb9[32]][_0x8cb9[70]](_0x8cb9[208])){const _0xaffexa=_0xaffex3[_0x8cb9[100]][_0x8cb9[99]][_0x8cb9[98]]();const _0xaffexd=_0xaffex3[_0x8cb9[31]][_0x8cb9[30]][_0x8cb9[29]](_0x8cb9[27],_0x8cb9[116]);const _0xaffex14=_0xaffex3[_0x8cb9[31]][_0x8cb9[107]][_0x8cb9[29]](_0x8cb9[27],_0x8cb9[105]);if(Owners[_0x8cb9[102]](_0xaffex3[_0x8cb9[18]][_0x8cb9[101]])){if(_0xaffexa){if(_0xaffexa[_0x8cb9[107]][_0x8cb9[106]]((_0xaffexc)=>[_0x8cb9[105]][_0x8cb9[102]](_0xaffexc[_0x8cb9[27]]))){_0xaffexa[_0x8cb9[212]](_0xaffex14)[_0x8cb9[131]](()=>{_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0x7CFC00,title:_0x8cb9[209],description:_0x8cb9[210],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}});_0xaffexd[_0x8cb9[14]]({embed:{color:3447003,title:_0x8cb9[211],fields:[{name:_0x8cb9[125],value:_0x8cb9[126]},{name:_0x8cb9[127],value:_0x8cb9[128]}],timestamp: new Date(),footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})})}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[213],description:_0x8cb9[214],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[91],description:_0x8cb9[215],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[136],description:_0x8cb9[216],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {if(_0xaffex3[_0x8cb9[32]]=== _0x8cb9[217]){let _0xaffex15=(client[_0x8cb9[218]]/ 1000);let _0xaffex16=Math[_0x8cb9[85]](_0xaffex15/ 3600);_0xaffex15%= 3600;let _0xaffex17=Math[_0x8cb9[85]](_0xaffex15/ 60);let _0xaffex18=_0xaffex15% 60;let _0xaffex19=_0x8cb9[219];if(Bot[_0x8cb9[102]](_0xaffex3[_0x8cb9[18]][_0x8cb9[101]])){_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0x7CFC00,title:_0x8cb9[220],description:_0x8cb9[221],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[136],description:_0x8cb9[216],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {if(_0xaffex3[_0x8cb9[32]]=== _0x8cb9[222]){if(Bot[_0x8cb9[102]](_0xaffex3[_0x8cb9[18]][_0x8cb9[101]])){_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:3447003,title:_0x8cb9[228],description:_0x8cb9[229],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})[_0x8cb9[131]]((_0xaffex1a)=>client[_0x8cb9[227]]())[_0x8cb9[131]](()=>client[_0x8cb9[226]](process[_0x8cb9[225]].TOKEN))[_0x8cb9[131]](()=>{_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:3447003,title:_0x8cb9[223],description:_0x8cb9[224],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})})}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[136],description:_0x8cb9[230],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}else {if(_0xaffex3[_0x8cb9[32]]=== _0x8cb9[231]){if(Bot[_0x8cb9[102]](_0xaffex3[_0x8cb9[18]][_0x8cb9[101]])){_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:3447003,title:_0x8cb9[232],description:_0x8cb9[233],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})[_0x8cb9[131]]((_0xaffex1a)=>client[_0x8cb9[227]]())}else {_0xaffex3[_0x8cb9[15]][_0x8cb9[14]]({embed:{color:0xFF0000,title:_0x8cb9[136],description:_0x8cb9[230],timestamp:false,footer:{icon_url:client[_0x8cb9[7]][_0x8cb9[12]],text:_0x8cb9[26]}}})}}}}}}}}}}}}}}}}});client[_0x8cb9[226]](process[_0x8cb9[225]].BOT_TOKEN)
+const Discord = require('discord.js');
+const { prefix, token, Owners, Bot, } = require('./config.json');
+const client = new Discord.Client();
+
+client.on('ready', () => {
+    console.log('Ready!');
+    client.user.setActivity('.help');
+});
+
+client.on('error', () => {
+    console.log(error)
+    message.channel.send({embed : {
+        color: 0xFF0000,
+    title: "An error occured!",
+    description: `${error}`,
+    timestamp: false,
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "Please screenshot this message and inform **[REDACTED]#2373**"
+    }
+    }
+  });
+});
+
+
+client.on('message', message => {
+           if (message) {
+             if (!message.author.bot) {
+             message.guild.channels.find("name", "chat-logs").send({embed : {
+                color: 3447003,
+            title: "A message has been sent and logged!",
+            fields: [{
+              name: "Message Sent",
+              value: `${message.content}`
+            },
+            {
+                name: "Channel Sent In",
+                value: `${message.channel}`
+            },
+            {
+              name: "Sent by",
+              value: `${message.author}`
+            }],
+            timestamp: new Date(),
+            footer: {
+              icon_url: client.user.avatarURL,
+              text: "© Water Bot"
+            }
+        }
+    });
+    }
+}
+    if (message.content === `${prefix}help`) {
+        message.channel.send({embed : {
+          color: 0x7CFC00,
+      title: "Help is on the way!",
+      description: "Check your direct messages! :mailbox_with_mail:",
+      timestamp: false,
+      footer: {
+        icon_url: client.user.avatarURL,
+        text: "© Water Bot"
+      }
+      }
+  });
+        message.author.send({embed: {
+            color: 3447003,
+            author: {
+              name: client.user.username,
+              icon_url: client.user.avatarURL
+            },
+            title: "Water Bot Commands Menu",
+            url: "",
+            description: "List of commands for the Water Bot",
+            fields: [{
+                name: ".help",
+                value: "Shows up the bot commands menu for water bot. - Access Level 1"
+              },
+              {
+                name: ".membercount",
+                value: "Shows up the current total members in the server. - Access Level 1"
+              },
+              {
+                name: ".accesslevel",
+                value: "Shows up your access level or the mentioned user access level. - Access Level 1"
+              },
+              {
+                name: ".8ball",
+                value: "Ask the bot a question. - Access Level 1"
+              },
+              {
+                name: ".kick",
+                value: "Kicks the mentioned user. - Access Level 2"
+              },
+              {
+                name: ".ban",
+                value: "Bans the mentioned user. - Access Level 2"
+              },
+              {
+                name: ".mute",
+                value: "Mutes the mentioned user. - Access Level 2"
+              },
+              {
+                name: ".unmute",
+                value: "Revokes the mute for the mentioned user. - Access Level 2"
+              },
+              {
+                name: ".lockdown",
+                value: "Lockdown the targeted channel. - Access Level 2"
+              },
+              {
+                name: ".unlockdown",
+                value: "Revokes the lockdown for the targeted channel. - Access Level 2"
+              },
+              {
+                name: ".addmod",
+                value: "Gives the mentioned user mod permissions. - Access Level 3"
+              },
+              {
+                name: ".delmod",
+                value: "Removes the mentioned user mod permissions. - Access Level 3"
+              },
+              {
+                name: ".uptime",
+                value: "Shows up the bot's uptime. - Access Level 3"
+              },
+              {
+                name: ".shutdown",
+                value: "Shutdowns the bot. - Access Level 3"
+              },
+              {
+                name: ".reboot",
+                value: "Restarts the bot. - Access Level 3"
+              }
+            ],
+            timestamp: false,
+            footer: {
+              icon_url: client.user.avatarURL,
+              text: "© Water Bot"
+            }
+          }
+        });
+    }
+  else if (message.content.startsWith(`${prefix}8ball`)) {
+      const args = message.content.slice(prefix.length).trim().split(/ +/g);
+      let question = args.slice(1).join(" ");
+      let replies = ["Yes.", "No.", "I'm certian of.", "I am not sure.", "Answer Uncertain", "Definetely no.", "YES!"]
+      let result = Math.floor((Math.random() * replies.length));
+      if (question) {
+        message.channel.send({embed : {
+          color: 0x7CFC00,
+      title: "A question has been asked!",
+      fields: [{
+        name: "Question Asked",
+        value: `${question}`
+      },
+      {
+        name: "Answer",
+        value: `${replies[result]}`
+      }],
+      timestamp: false,
+      footer: {
+        icon_url: client.user.avatarURL,
+        text: "© Water Bot"
+      }
+      }
+  });
+      }
+      else
+      message.channel.send({embed : {
+        color: 0xFF0000,
+    title: "Insufficient Arguments!",
+    description: `Please ask a question!`,
+    timestamp: false,
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "© Water Bot"
+    }
+    }
+  });
+    }
+  else if (message.content === `${prefix}membercount`) {
+  const guild = message.guild
+  const allmembers = guild.memberCount
+  message.channel.send({embed : {
+          color: 0x7CFC00,
+      title: "Membercount Found!",
+      description: `${allmembers}`,
+      timestamp: false,
+      footer: {
+        icon_url: client.user.avatarURL,
+        text: "© Water Bot"
+      }
+      }
+  });
+}
+    else if (message.content.startsWith(`${prefix}accesslevel`)) {
+      const mentionedmember = message.mentions.members.first();
+      const args = message.content.slice(prefix.length).trim().split(/ +/g);
+      let firstword = args.slice(1).join(" ");
+      if (firstword) {
+      if (mentionedmember) {
+      if (Owners.includes(mentionedmember.id)) {
+        message.channel.send({embed : {
+          color: 0x7CFC00,
+      title: "Access Level Found!",
+      description: `${mentionedmember} access level is 3 - Water Bot Owner`,
+      timestamp: false,
+      footer: {
+        icon_url: client.user.avatarURL,
+        text: "© Water Bot"
+      }
+      }
+  });
+      }
+      else if (mentionedmember.roles.some(r=>["mod access"].includes(r.name)) ) {
+        message.channel.send({embed : {
+          color: 0x7CFC00,
+      title: "Access Level Found!",
+      description: `${mentionedmember} access level is 2 - Water Bot Moderator`,
+      timestamp: false,
+      footer: {
+        icon_url: client.user.avatarURL,
+        text: "© Water Bot"
+      }
+      }
+  });
+      }
+      else 
+      message.channel.send({embed : {
+        color: 0x7CFC00,
+    title: "Access Level Found!",
+    description: `${mentionedmember} access level is 1 - Water Bot User`,
+    timestamp: false,
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "© Water Bot"
+    }
+    }
+});
+    }
+  }
+  else if (Owners.includes(message.member.id)) {
+    message.channel.send({embed : {
+      color: 0x7CFC00,
+  title: "Access Level Found! ",
+  description: `${message.member} access level is 3 - Water Bot Owner`,
+  timestamp: false,
+  footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+  }
+  }
+});
+  }
+  else if (message.member.roles.some(r=>["mod access"].includes(r.name)) ) {
+    message.channel.send({embed : {
+      color: 0x7CFC00,
+  title: "Access Level Found! ",
+  description: `${message.member} access level is 2 - Water Bot Moderator`,
+  timestamp: false,
+  footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+  }
+  }
+});
+  }
+  else 
+  message.channel.send({embed : {
+    color: 0x7CFC00,
+title: "Access Level Found! ",
+description: `${message.member} access level is 1 - Water Bot User`,
+timestamp: false,
+footer: {
+  icon_url: client.user.avatarURL,
+  text: "© Water Bot"
+}
+}
+});
+    }
+    else if (message.content.startsWith(`${prefix}kick`)) {
+        const mentionedmember = message.mentions.members.first();
+        const args = message.content.slice(prefix.length).trim().split(/ +/g);
+        const modlogs = message.guild.channels.find("name", "mod-logs")
+        let reason = args.slice(2).join(" ");
+        if (Owners.includes(message.author.id)) {
+            if (mentionedmember) {
+            if (Owners.includes(mentionedmember.id)) {
+              message.channel.send({embed : {
+                color: 0xFF0000,
+            title: "Kick Failure!",
+            description: `The user you are trying to kick has the same or higher access level than you!`,
+            timestamp: false,
+            footer: {
+              icon_url: client.user.avatarURL,
+              text: "© Water Bot"
+            }
+            }
+          });
+            }
+            else
+            if (mentionedmember.kickable) {
+            if (reason) {
+                mentionedmember.send(`You have been kicked from Water YT Discord. Reason : ${reason}`)
+                .then(() => {
+                message.delete();
+                mentionedmember.kick();
+                message.channel.send({embed : {
+                  color: 0x7CFC00,
+              title: "Kick Success!",
+              description: `${mentionedmember} has been kicked from the server!`,
+              timestamp: false,
+              footer: {
+                icon_url: client.user.avatarURL,
+                text: "© Water Bot"
+              }
+              }
+          });
+           modlogs.send({embed : {
+                  color: 3447003,
+              title: "User has been kicked!",
+              fields: [{
+                name: "User",
+                value: `${mentionedmember}`
+              },
+              {
+                name: "Moderator",
+                value: `${message.member}`
+              },
+              {
+                name: "Reason",
+                value: `${reason}`
+              }],
+              timestamp: new Date(),
+              footer: {
+                icon_url: client.user.avatarURL,
+                text: "© Water Bot"
+              }
+              }
+          });
+                })
+                }
+                else message.channel.send({embed : {
+                  color: 0xFF0000,
+              title: "Insufficient Arguments!",
+              description: "Please include the reason for the kick!",
+              timestamp: false,
+              footer: {
+                icon_url: client.user.avatarURL,
+                text: "© Water Bot"
+              }
+              }
+            });
+              }
+              else message.channel.send({embed : {
+                color: 0xFF0000,
+            title: "Kick Failure!",
+            description: "I am unable to kick this user. Please ensure that my current role is higher than them and has the permission to kick members!",
+            timestamp: false,
+            footer: {
+              icon_url: client.user.avatarURL,
+              text: "© Water Bot"
+            }
+            }
+          });
+           }
+           else message.channel.send({embed : {
+            color: 0xFF0000,
+        title: "Insufficient Arguments!",
+        description: "Please mention the user that you want to kick!",
+        timestamp: false,
+        footer: {
+          icon_url: client.user.avatarURL,
+          text: "© Water Bot"
+        }
+        }
+      });
+        }
+        else
+        if (message.member.roles.some(r=>["mod access"].includes(r.name)) ) {
+        if (mentionedmember) {
+        if (Owners.includes(mentionedmember.id)) {
+          message.channel.send({embed : {
+            color: 0xFF0000,
+        title: "Kick Failure!",
+        description: `The user you are trying to kick has the same or higher access level than you!`,
+        timestamp: false,
+        footer: {
+          icon_url: client.user.avatarURL,
+          text: "© Water Bot"
+        }
+        }
+      });
+        }
+        else
+        if (mentionedmember.kickable) {
+        if (mentionedmember.roles.some(r=>["mod access"].includes(r.name)) ) {
+          message.channel.send({embed : {
+            color: 0xFF0000,
+        title: "Kick Failure!",
+        description: `The user you are trying to kick has the same or higher access level than you!`,
+        timestamp: false,
+        footer: {
+          icon_url: client.user.avatarURL,
+          text: "© Water Bot"
+        }
+        }
+    });
+  }
+  else
+        if (reason) {
+            mentionedmember.send(`You have been kicked from Water YT Discord. Reason : ${reason}`)
+            .then(() => {
+            message.delete();
+            mentionedmember.kick();
+            message.channel.send({embed : {
+              color: 0x7CFC00,
+          title: "Kick Success!",
+          description: `${mentionedmember} has been kicked from the server!`,
+          timestamp: false,
+          footer: {
+            icon_url: client.user.avatarURL,
+            text: "© Water Bot"
+          }
+          }
+      });
+       modlogs.send({embed : {
+              color: 3447003,
+          title: "User has been kicked!",
+          fields: [{
+            name: "User",
+            value: `${mentionedmember}`
+          },
+          {
+            name: "Moderator",
+            value: `${message.member}`
+          },
+          {
+            name: "Reason",
+            value: `${reason}`
+          }],
+          timestamp: new Date(),
+          footer: {
+            icon_url: client.user.avatarURL,
+            text: "© Water Bot"
+          }
+          }
+      });
+            })
+            }
+            else message.channel.send({embed : {
+              color: 0xFF0000,
+          title: "Insufficient Arguments!",
+          description: "Please include the reason for the kick!",
+          timestamp: false,
+          footer: {
+            icon_url: client.user.avatarURL,
+            text: "© Water Bot"
+          }
+          }
+        });
+          }
+          else message.channel.send({embed : {
+            color: 0xFF0000,
+        title: "Kick Failure!",
+        description: "I am unable to kick this user. Please ensure that my current role is higher than them and has the permission to kick members!",
+        timestamp: false,
+        footer: {
+          icon_url: client.user.avatarURL,
+          text: "© Water Bot"
+        }
+        }
+      });
+       }
+       else message.channel.send({embed : {
+        color: 0xFF0000,
+    title: "Insufficient Arguments!",
+    description: "Please mention the user that you want to kick!",
+    timestamp: false,
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "© Water Bot"
+    }
+    }
+  });
+    }
+    else message.channel.send({embed : {
+      color: 0xFF0000,
+  title: "Insufficient Permissions!",
+  description: "This command is only usable by Access Level 2 or above!",
+  timestamp: false,
+  footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+  }
+  }
+});
+}
+else if (message.content.startsWith(`${prefix}ban`)) {
+  const mentionedmember = message.mentions.members.first();
+  const args = message.content.slice(prefix.length).trim().split(/ +/g);
+  const modlogs = message.guild.channels.find("name", "mod-logs")
+  let reason = args.slice(2).join(" ");
+  if (Owners.includes(message.author.id)) {
+    if (mentionedmember) {
+    if (Owners.includes(mentionedmember.id)) {
+      message.channel.send({embed : {
+        color: 0xFF0000,
+    title: "Ban Failure!",
+    description: `The user you are trying to kick has the same or higher access level than you!`,
+    timestamp: false,
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "© Water Bot"
+    }
+    }
+  });
+    }
+    else
+    if (mentionedmember.kickable) {
+    if (reason) {
+        mentionedmember.send(`You have been banned from Water YT Discord. Reason : ${reason}`)
+        .then(() => {
+        message.delete();
+        mentionedmember.ban();
+        message.channel.send({embed : {
+          color: 0x7CFC00,
+      title: "Ban Success!",
+      description: `${mentionedmember} has been banned from the server!`,
+      timestamp: false,
+      footer: {
+        icon_url: client.user.avatarURL,
+        text: "© Water Bot"
+      }
+      }
+  });
+   modlogs.send({embed : {
+          color: 3447003,
+      title: "User has been banned!",
+      fields: [{
+        name: "User",
+        value: `${mentionedmember}`
+      },
+      {
+        name: "Moderator",
+        value: `${message.member}`
+      },
+      {
+        name: "Reason",
+        value: `${reason}`
+      }],
+      timestamp: new Date(),
+      footer: {
+        icon_url: client.user.avatarURL,
+        text: "© Water Bot"
+      }
+      }
+  });
+        })
+        }
+        else message.channel.send({embed : {
+          color: 0xFF0000,
+      title: "Insufficient Arguments!",
+      description: "Please include the reason for the ban!",
+      timestamp: false,
+      footer: {
+        icon_url: client.user.avatarURL,
+        text: "© Water Bot"
+      }
+      }
+    });
+      }
+      else message.channel.send({embed : {
+        color: 0xFF0000,
+    title: "Ban Failure!",
+    description: "I am unable to ban this user. Please ensure that my current role is higher than them and has the permission to ban members!",
+    timestamp: false,
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "© Water Bot"
+    }
+    }
+  });
+   }
+   else message.channel.send({embed : {
+    color: 0xFF0000,
+title: "Insufficient Arguments!",
+description: "Please mention the user that you want to ban!",
+timestamp: false,
+footer: {
+  icon_url: client.user.avatarURL,
+  text: "© Water Bot"
+}
+}
+});
+}
+else
+  if (message.member.roles.some(r=>["mod access"].includes(r.name)) ) {
+  if (mentionedmember) {
+  if (Owners.includes(mentionedmember.id)) {
+    message.channel.send({embed : {
+      color: 0xFF0000,
+  title: "Ban Failure!",
+  description: `The user you are trying to ban has the same or higher access level than you!`,
+  timestamp: false,
+  footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+  }
+  }
+});
+  }
+  else
+  if (mentionedmember.bannable) {
+  if (mentionedmember.roles.some(r=>["mod access"].includes(r.name)) ) {
+    message.channel.send({embed : {
+      color: 0xFF0000,
+  title: "Ban Failure!",
+  description: `The user you are trying to ban has the same or higher access level than you!`,
+  timestamp: false,
+  footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+  }
+  }
+});
+}
+else
+  if (reason) {
+      mentionedmember.send(`You have been banned from Water YT Discord. Reason : ${reason}`)
+      .then(() => {
+      message.delete();
+      mentionedmember.ban();
+      message.channel.send({embed : {
+        color: 0x7CFC00,
+    title: "Ban Success!",
+    description: `${mentionedmember} has been banned from the server!`,
+    timestamp: false,
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "© Water Bot"
+    }
+    }
+});
+ modlogs.send({embed : {
+        color: 3447003,
+    title: "User has been banned!",
+    fields: [{
+      name: "User",
+      value: `${mentionedmember}`
+    },
+    {
+      name: "Moderator",
+      value: `${message.member}`
+    },
+    {
+      name: "Reason",
+      value: `${reason}`
+    }],
+    timestamp: new Date(),
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "© Water Bot"
+    }
+    }
+});
+      })
+      }
+      else message.channel.send({embed : {
+        color: 0xFF0000,
+    title: "Insufficient Arguments!",
+    description: "Please include the reason for the ban!",
+    timestamp: false,
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "© Water Bot"
+    }
+    }
+  });
+    }
+    else message.channel.send({embed : {
+      color: 0xFF0000,
+  title: "Ban Failure!",
+  description: "I am unable to ban this user. Please ensure that my current role is higher than them and has the permission to ban members!",
+  timestamp: false,
+  footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+  }
+  }
+});
+ }
+ else message.channel.send({embed : {
+  color: 0xFF0000,
+title: "Insufficient Arguments!",
+description: "Please mention the user that you want to ban!",
+timestamp: false,
+footer: {
+icon_url: client.user.avatarURL,
+text: "© Water Bot"
+}
+}
+});
+}
+else message.channel.send({embed : {
+color: 0xFF0000,
+title: "Insufficient Permissions!",
+description: "This command is only usable by Access Level 2 or above!",
+timestamp: false,
+footer: {
+icon_url: client.user.avatarURL,
+text: "© Water Bot"
+}
+}
+});
+}
+else if (message.content.startsWith(`${prefix}mute`)) {
+  const mentionedmember = message.mentions.members.first();
+  const args = message.content.slice(prefix.length).trim().split(/ +/g);
+  const modlogs = message.guild.channels.find("name", "mod-logs")
+  const allcategory = message.guild.channels.find("name", "general")
+  let reason = args.slice(2).join(" ");
+  if (Owners.includes(message.author.id)) {
+  if (mentionedmember) {
+  if (reason) {
+  if (mentionedmember.hasPermission("ADMINISTRATOR")) { 
+    message.channel.send({embed : {
+      color: 0xFF0000,
+    title: "Mute Failure",
+    description: "The user you are trying to mute has the permission `ADMINSTRATOR` that allows the user to be able to bypass the mute!",
+    timestamp: false,
+    footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+    }
+    }
+    });
+  }
+  else if (allcategory.permissionsFor(mentionedmember).hasPermission("SEND_MESSAGES")) {
+    allcategory.overwritePermissions(mentionedmember, {
+      READ_MESSAGES: true,
+      SEND_MESSAGES: false
+    })
+    .then(() => {
+    message.channel.send({embed : {
+      color: 0x7CFC00,
+    title: "Mute Success!",
+    description: `${mentionedmember} has been muted in the server!`,
+    timestamp: false,
+    footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+    }
+    }
+    });
+    modlogs.send({embed : {
+      color: 3447003,
+  title: "User has been muted!",
+  fields: [{
+    name: "User",
+    value: `${mentionedmember}`
+  },
+  {
+    name: "Moderator",
+    value: `${message.member}`
+  },
+  {
+    name: "Reason",
+    value: `${reason}`
+  }],
+  timestamp: new Date(),
+  footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+  }
+  }
+});
+    })
+  }
+  else
+    message.channel.send({embed : {
+      color: 0xFF0000,
+    title: "Mute Failure!",
+    description: "The user you are trying to mute is already muted!",
+    timestamp: false,
+    footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+    }
+    }
+    });
+}
+  else
+  message.channel.send({embed : {
+    color: 0xFF0000,
+  title: "Insufficient Arguments!",
+  description: "Please include the reason for the mute!",
+  timestamp: false,
+  footer: {
+  icon_url: client.user.avatarURL,
+  text: "© Water Bot"
+  }
+  }
+  });
+  }
+  else
+message.channel.send({embed : {
+  color: 0xFF0000,
+title: "Insufficient Arguments!",
+description: "Please mention the user that you want to mute!",
+timestamp: false,
+footer: {
+icon_url: client.user.avatarURL,
+text: "© Water Bot"
+}
+}
+});
+}
+else if (message.member.roles.some(r=>["mod access"].includes(r.name)) ) {
+if (mentionedmember) {
+if (Owners.includes(mentionedmember.id)) {
+  message.channel.send({embed : {
+    color: 0xFF0000,
+title: "Mute Failure!",
+description: `The user you are trying to mute has the same or higher access level than you!`,
+timestamp: false,
+footer: {
+  icon_url: client.user.avatarURL,
+  text: "© Water Bot"
+}
+}
+});
+}
+else if (mentionedmember.roles.some(r=>["mod access"].includes(r.name)) ) {
+  message.channel.send({embed : {
+    color: 0xFF0000,
+title: "Mute Failure!",
+description: `The user you are trying to mute has the same or higher access level than you!`,
+timestamp: false,
+footer: {
+  icon_url: client.user.avatarURL,
+  text: "© Water Bot"
+}
+}
+});
+}
+else if (mentionedmember.hasPermission("ADMINISTRATOR")) { 
+    message.channel.send({embed : {
+      color: 0xFF0000,
+    title: "Mute Failure",
+    description: "The user you are trying to mute has the permission `ADMINSTRATOR` that allows the user to be able to bypass the mute!",
+    timestamp: false,
+    footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+    }
+    }
+    });
+  }
+  else if (allcategory.permissionsFor(mentionedmember).hasPermission("SEND_MESSAGES")) {
+    allcategory.overwritePermissions(mentionedmember, {
+      READ_MESSAGES: true,
+      SEND_MESSAGES: false
+    })
+    .then(() => {
+      message.channel.send({embed : {
+        color: 0x7CFC00,
+      title: "Mute Success!",
+      description: `${mentionedmember} has been muted in the server!`,
+      timestamp: false,
+      footer: {
+      icon_url: client.user.avatarURL,
+      text: "© Water Bot"
+      }
+      }
+      });
+      modlogs.send({embed : {
+        color: 3447003,
+    title: "User has been muted!",
+    fields: [{
+      name: "User",
+      value: `${mentionedmember}`
+    },
+    {
+      name: "Moderator",
+      value: `${message.member}`
+    },
+    {
+      name: "Reason",
+      value: `${reason}`
+    }],
+    timestamp: new Date(),
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "© Water Bot"
+    }
+    }
+  });
+      })
+  }
+  else
+    message.channel.send({embed : {
+      color: 0xFF0000,
+    title: "Mute Failure!",
+    description: "The user you are trying to mute is already muted!",
+    timestamp: false,
+    footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+    }
+    }
+    });
+  }
+  else
+message.channel.send({embed : {
+  color: 0xFF0000,
+title: "Insufficient Arguments!",
+description: "Please mention the user that you want to mute!",
+timestamp: false,
+footer: {
+icon_url: client.user.avatarURL,
+text: "© Water Bot"
+}
+}
+});
+}
+else
+message.channel.send({embed : {
+  color: 0xFF0000,
+title: "Insufficient Permissions!",
+description: "This command is only for access level 2 and above!",
+timestamp: false,
+footer: {
+icon_url: client.user.avatarURL,
+text: "© Water Bot"
+}
+}
+});
+}
+else if (message.content.startsWith(`${prefix}unmute`)) {
+  const mentionedmember = message.mentions.members.first();
+  const allcategory = message.guild.channels.find("name", "general")
+  const args = message.content.slice(prefix.length).trim().split(/ +/g);
+  const modlogs = message.guild.channels.find("name", "mod-logs")
+  let reason = args.slice(2).join(" ");
+  if (Owners.includes(message.author.id)) {
+  if (mentionedmember) {
+  if (reason) {
+  if (allcategory.permissionsFor(mentionedmember).hasPermission("SEND_MESSAGES")) {
+    message.channel.send({embed : {
+      color: 0xFF0000,
+    title: "Unmute Failure!",
+    description: "The user you are trying to unmute is not even muted!",
+    timestamp: false,
+    footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+    }
+    }
+    });
+  }
+  else
+  allcategory.overwritePermissions(mentionedmember, {
+    SEND_MESSAGES: null
+  })
+  .then(() => {
+    message.channel.send({embed : {
+      color: 0x7CFC00,
+    title: "Unmute Success!",
+    description: `${mentionedmember} has been unmuted in the server!`,
+    timestamp: false,
+    footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+    }
+    }
+    });
+    modlogs.send({embed : {
+      color: 3447003,
+  title: "User has been unmuted!",
+  fields: [{
+    name: "User",
+    value: `${mentionedmember}`
+  },
+  {
+    name: "Moderator",
+    value: `${message.member}`
+  },
+  {
+    name: "Reason",
+    value: `${reason}`
+  }],
+  timestamp: new Date(),
+  footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+  }
+  }
+})
+})
+  }
+   else message.channel.send({embed : {
+    color: 0xFF0000,
+  title: "Insufficient Arguments!",
+  description: "Please include the reason for your unmute!",
+  timestamp: false,
+  footer: {
+  icon_url: client.user.avatarURL,
+  text: "© Water Bot"
+  }
+  }
+  });
+}
+  else message.channel.send({embed : {
+    color: 0xFF0000,
+  title: "Insufficient Arguments!",
+  description: "Please mention the user that you want to unmute!",
+  timestamp: false,
+  footer: {
+  icon_url: client.user.avatarURL,
+  text: "© Water Bot"
+  }
+  }
+  });
+  }
+  else if (message.member.roles.some(r=>["mod access"].includes(r.name)) ) {
+  if (mentionedmember) {
+    if (reason) {
+    if (allcategory.permissionsFor(mentionedmember).hasPermission("SEND_MESSAGES")) {
+      message.channel.send({embed : {
+        color: 0xFF0000,
+      title: "Unmute Failure!",
+      description: "The member you are trying to unmute is not even muted!",
+      timestamp: false,
+      footer: {
+      icon_url: client.user.avatarURL,
+      text: "© Water Bot"
+      }
+      }
+      });
+    }
+    else
+    allcategory.overwritePermissions(mentionedmember, {
+      SEND_MESSAGES: null
+    })
+    .then(() => {
+      message.channel.send({embed : {
+        color: 0x7CFC00,
+      title: "Mute Success!",
+      description: `${mentionedmember} has been unmuted in the server!`,
+      timestamp: false,
+      footer: {
+      icon_url: client.user.avatarURL,
+      text: "© Water Bot"
+      }
+      }
+      });
+      modlogs.send({embed : {
+        color: 3447003,
+    title: "User has been unmuted!",
+    fields: [{
+      name: "User",
+      value: `${mentionedmember}`
+    },
+    {
+      name: "Moderator",
+      value: `${message.member}`
+    },
+    {
+      name: "Reason",
+      value: `${reason}`
+    }],
+    timestamp: new Date(),
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "© Water Bot"
+    }
+    }
+  })
+})
+    }
+  else
+   message.channel.send({embed : {
+    color: 0xFF0000,
+  title: "Insufficient Arguments!",
+  description: "Please include the reason for your unmute!",
+  timestamp: false,
+  footer: {
+  icon_url: client.user.avatarURL,
+  text: "© Water Bot"
+  }
+  }
+  });
+}
+else message.channel.send({embed : {
+  color: 0xFF0000,
+title: "Insufficient Arguments!",
+description: "Please mention the user that you want to unmute!",
+timestamp: false,
+footer: {
+icon_url: client.user.avatarURL,
+text: "© Water Bot"
+}
+}
+});
+}
+else message.channel.send({embed : {
+  color: 0xFF0000,
+title: "Insufficient Permissions!",
+description: "This command is only usable by access level 2 and above!",
+timestamp: false,
+footer: {
+icon_url: client.user.avatarURL,
+text: "© Water Bot"
+}
+}
+});
+}
+else if (message.content.startsWith(`${prefix}lockdown`)) {
+  const args = message.content.slice(prefix.length).trim().split(/ +/g);
+  const modlogs = message.guild.channels.find("name", "mod-logs")
+  let targetchannel = args.slice(1).join(" ");
+  const lockdownchannel = message.guild.channels.find("name", (targetchannel))
+  const guild = message.guild
+
+  if (Owners.includes(message.author.id)) {
+    if (targetchannel) {
+    if (lockdownchannel) {
+      lockdownchannel.overwritePermissions(guild.id, {
+        SEND_MESSAGES: false
+      })
+      .then(() => {
+        message.channel.send({embed : {
+          color: 0x7CFC00,
+        title: "Lockdown Success!",
+        description: `#${targetchannel} is now in lockdown mode!`,
+        timestamp: false,
+        footer: {
+        icon_url: client.user.avatarURL,
+        text: "© Water Bot"
+        }
+        }
+        });
+        modlogs.send({embed : {
+          color: 3447003,
+      title: "Channel Lockdown!",
+      fields: [{
+        name: "Lockdown Channel",
+        value: `#${targetchannel}`
+      },
+      {
+        name: "Moderator",
+        value: `${message.member}`
+      }],
+      timestamp: new Date(),
+      footer: {
+        icon_url: client.user.avatarURL,
+        text: "© Water Bot"
+      }
+      }
+    })
+      })
+    }
+    else
+    message.channel.send({embed : {
+      color: 0xFF0000,
+    title: "Lockdown Failure!",
+    description: "The channel you are trying to lockdown does not exist!",
+    timestamp: false,
+    footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+    }
+    }
+    });
+    }
+    else
+    message.channel.send({embed : {
+      color: 0xFF0000,
+    title: "Insufficient Arguments!",
+    description: "Please include the channel you want to lockdown!",
+    timestamp: false,
+    footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+    }
+    }
+    });
+  }
+  else if (message.member.roles.some(r=>["mod access"].includes(r.name)) ) {
+  if (targetchannel) {
+    if (lockdownchannel) {
+      lockdownchannel.overwritePermissions(guild.id, {
+        SEND_MESSAGES: false
+      })
+      .then(() => {
+        message.channel.send({embed : {
+          color: 0x7CFC00,
+        title: "Lockdown Success!",
+        description: `#${targetchannel} is now in lockdown mode!`,
+        timestamp: false,
+        footer: {
+        icon_url: client.user.avatarURL,
+        text: "© Water Bot"
+        }
+        }
+        });
+        modlogs.send({embed : {
+          color: 3447003,
+      title: "Channel Lockdown!",
+      fields: [{
+        name: "Lockdown Channel",
+        value: `#${targetchannel}`
+      },
+      {
+        name: "Moderator",
+        value: `${message.member}`
+      }],
+      timestamp: new Date(),
+      footer: {
+        icon_url: client.user.avatarURL,
+        text: "© Water Bot"
+      }
+      }
+    })
+      })
+    }
+    else
+    message.channel.send({embed : {
+      color: 0xFF0000,
+    title: "Lockdown Failure!",
+    description: "The channel you are trying to lockdown does not exist!",
+    timestamp: false,
+    footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+    }
+    }
+    });
+    }
+    else
+    message.channel.send({embed : {
+      color: 0xFF0000,
+    title: "Insufficient Arguments!",
+    description: "Please include the channel you want to lockdown!",
+    timestamp: false,
+    footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+    }
+    }
+    });
+  }
+  else
+  message.channel.send({embed : {
+    color: 0xFF0000,
+  title: "Insufficient Permissions!",
+  description: "This command is only usable by access level 2 and above!",
+  timestamp: false,
+  footer: {
+  icon_url: client.user.avatarURL,
+  text: "© Water Bot"
+  }
+  }
+  });
+}
+  else if (message.content.startsWith(`${prefix}unlockdown`)) {
+  const args = message.content.slice(prefix.length).trim().split(/ +/g);
+  const modlogs = message.guild.channels.find("name", "mod-logs")
+  let targetchannel = args.slice(1).join(" ");
+  const unlockdownchannel = message.guild.channels.find("name", (targetchannel))
+  const guild = message.guild
+  const unlockablechannels = ["general","bot-commands","test"]
+
+  if (Owners.includes(message.author.id)) {
+    if (targetchannel) {
+    if (unlockdownchannel) {
+    if (unlockablechannels.includes(targetchannel)) {
+      unlockdownchannel.overwritePermissions(guild.id, {
+        SEND_MESSAGES: null
+      })
+      .then(() => {
+        message.channel.send({embed : {
+          color: 0x7CFC00,
+        title: "Unlockdown Success!",
+        description: `#${targetchannel} is now no longer in lockdown mode!`,
+        timestamp: false,
+        footer: {
+        icon_url: client.user.avatarURL,
+        text: "© Water Bot"
+        }
+        }
+        });
+        modlogs.send({embed : {
+          color: 3447003,
+      title: "Channel Unlockdown!",
+      fields: [{
+        name: "Unlockdown Channel",
+        value: `#${targetchannel}`
+      },
+      {
+        name: "Moderator",
+        value: `${message.member}`
+      }],
+      timestamp: new Date(),
+      footer: {
+        icon_url: client.user.avatarURL,
+        text: "© Water Bot"
+      }
+      }
+    })
+      })
+    }
+    else
+     message.channel.send({embed : {
+      color: 0xFF0000,
+    title: "Unlockdown Failure!",
+    description: "The channel you are trying to unlockdown is not unlockable!",
+    timestamp: false,
+    footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+    }
+    }
+    });
+}
+    else
+    message.channel.send({embed : {
+      color: 0xFF0000,
+    title: "Unlckdown Failure!",
+    description: "The channel you are trying to unlockdown does not exist!",
+    timestamp: false,
+    footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+    }
+    }
+    });
+    }
+    else
+    message.channel.send({embed : {
+      color: 0xFF0000,
+    title: "Insufficient Arguments!",
+    description: "Please include the channel you want to unlockdown!",
+    timestamp: false,
+    footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+    }
+    }
+    });
+  }
+  else if (message.member.roles.some(r=>["mod access"].includes(r.name)) ) {
+  if (targetchannel) {
+    if (unlockdownchannel) {
+     if (unlockablechannels.includes(targetchannel)) {
+      unlockdownchannel.overwritePermissions(guild.id, {
+        SEND_MESSAGES: null
+      })
+      .then(() => {
+        message.channel.send({embed : {
+          color: 0x7CFC00,
+        title: "Unlockdown Success!",
+        description: `#${targetchannel} is now no longer in lockdown mode!`,
+        timestamp: false,
+        footer: {
+        icon_url: client.user.avatarURL,
+        text: "© Water Bot"
+        }
+        }
+        });
+        modlogs.send({embed : {
+          color: 3447003,
+      title: "Channel Unlockdown!",
+          
+          
+      fields: [{
+        name: "Unlockdown Channel",
+        value: `#${targetchannel}`
+      },
+      {
+        name: "Moderator",
+        value: `${message.member}`
+      }],
+      timestamp: new Date(),
+      footer: {
+        icon_url: client.user.avatarURL,
+        text: "© Water Bot"
+      }
+      }
+    })
+      })
+    }
+     else
+     message.channel.send({embed : {
+      color: 0xFF0000,
+    title: "Unlockdown Failure!",
+    description: "The channel you are trying to unlockdown is not unlockable!",
+    timestamp: false,
+    footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+    }
+    }
+    });
+}
+    else
+    message.channel.send({embed : {
+      color: 0xFF0000,
+    title: "Unlockdown Failure!",
+    description: "The channel you are trying to unlockdown does not exist!",
+    timestamp: false,
+    footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+    }
+    }
+    });
+    }
+    else
+    message.channel.send({embed : {
+      color: 0xFF0000,
+    title: "Insufficient Arguments!",
+    description: "Please include the channel you want to unlockdown!",
+    timestamp: false,
+    footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+    }
+    }
+    });
+  }
+  else
+  message.channel.send({embed : {
+    color: 0xFF0000,
+  title: "Insufficient Permissions!",
+  description: "This command is only usable by access level 2 and above!",
+  timestamp: false,
+  footer: {
+  icon_url: client.user.avatarURL,
+  text: "© Water Bot"
+  }
+  }
+  });
+}
+else if (message.content.startsWith(`${prefix}addmod`)) {
+  const mentionedmember = message.mentions.members.first();
+  const mod = message.guild.roles.find("name", "mod access")
+  const modlogs = message.guild.channels.find("name", "mod-logs")
+
+  if (Owners.includes(message.author.id)) {
+  if (mentionedmember) {
+  if (mentionedmember.roles.some(r=>["mod access"].includes(r.name)) ) {
+    message.channel.send({embed : {
+      color: 0xFF0000,
+    title: "Addmod Failure!",
+    description: "The user you are trying to addmod is already a bot moderator!",
+    timestamp: false,
+    footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+    }
+    }
+    });
+  }
+  else
+  mentionedmember.addRole(mod)
+  .then (() => {
+    message.channel.send({embed : {
+      color: 0x7CFC00,
+    title: "Addmod Success!",
+    description: `${mentionedmember} is now a bot moderator!`,
+    timestamp: false,
+    footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+    }
+    }
+    });
+    modlogs.send({embed : {
+      color: 3447003,
+  title: "New bot moderator!",
+  fields: [{
+    name: "User",
+    value: `${mentionedmember}`
+  },
+  {
+    name: "Moderator",
+    value: `${message.member}`
+  }],
+  timestamp: new Date(),
+  footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+  }
+  }
+})
+  })
+  }
+  else
+  message.channel.send({embed : {
+    color: 0xFF0000,
+  title: "Insufficient Arguments!",
+  description: "Please mention the user that you want to addmod!",
+  timestamp: false,
+  footer: {
+  icon_url: client.user.avatarURL,
+  text: "© Water Bot"
+  }
+  }
+  });
+  }
+  else
+  message.channel.send({embed : {
+    color: 0xFF0000,
+  title: "Insufficient Permissions!",
+  description: "This command is only usably by access level 3!",
+  timestamp: false,
+  footer: {
+  icon_url: client.user.avatarURL,
+  text: "© Water Bot"
+  }
+  }
+  });
+}
+  else if (message.content.startsWith(`${prefix}delmod`)) {
+  const mentionedmember = message.mentions.members.first();
+  const modlogs = message.guild.channels.find("name", "mod-logs")
+  const mod = message.guild.roles.find("name", "mod access")
+  if (Owners.includes(message.author.id)) {
+  if (mentionedmember) {
+  if (mentionedmember.roles.some(r=>["mod access"].includes(r.name)) ) {
+    mentionedmember.removeRole(mod)
+    .then (() => {
+      message.channel.send({embed : {
+        color: 0x7CFC00,
+      title: "Delmod Success!",
+      description: `${mentionedmember} is now no longer a bot moderator!`,
+      timestamp: false,
+      footer: {
+      icon_url: client.user.avatarURL,
+      text: "© Water Bot"
+      }
+      }
+      });
+      modlogs.send({embed : {
+        color: 3447003,
+    title: "Removed bot moderator!",
+    fields: [{
+      name: "User",
+      value: `${mentionedmember}`
+    },
+    {
+      name: "Moderator",
+      value: `${message.member}`
+    }],
+    timestamp: new Date(),
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "© Water Bot"
+    }
+    }
+  })
+})
+  }
+    else
+    message.channel.send({embed : {
+      color: 0xFF0000,
+    title: "Delmod Failure!",
+    description: "The user you are trying to delete mod is not even a moderator!",
+    timestamp: false,
+    footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+    }
+    }
+    });
+  }
+  else
+  message.channel.send({embed : {
+    color: 0xFF0000,
+  title: "Insufficient Arguments!",
+  description: "Please mention the user that you want to delete mod!",
+  timestamp: false,
+  footer: {
+  icon_url: client.user.avatarURL,
+  text: "© Water Bot"
+  }
+  }
+  });
+  }
+  else
+  message.channel.send({embed : {
+    color: 0xFF0000,
+  title: "Insufficient Permissions!",
+  description: "This command is only usable by access level 3!",
+  timestamp: false,
+  footer: {
+  icon_url: client.user.avatarURL,
+  text: "© Water Bot"
+  }
+  }
+  });
+  }
+  else if (message.content === `${prefix}uptime`) {
+    let totalSeconds = (client.uptime / 1000);
+  let hours = Math.floor(totalSeconds / 3600);
+  totalSeconds %= 3600;
+  let minutes = Math.floor(totalSeconds / 60);
+  let seconds = totalSeconds % 60;
+  let uptime = `${hours} hours, ${minutes} minutes and ${seconds} seconds`;
+  if (Bot.includes(message.author.id)) {
+  message.channel.send({embed : {
+        color: 0x7CFC00,
+      title: "Uptime Found!",
+      description: `The bot has been online and running for ${uptime}`,
+      timestamp: false,
+      footer: {
+      icon_url: client.user.avatarURL,
+      text: "© Water Bot"
+      }
+      }
+      });
+}
+    else
+    message.channel.send({embed : {
+    color: 0xFF0000,
+  title: "Insufficient Permissions!",
+  description: "This command is only usable by access level 3!",
+  timestamp: false,
+  footer: {
+  icon_url: client.user.avatarURL,
+  text: "© Water Bot"
+  }
+  }
+  });
+}
+else if (message.content === `${prefix}reboot`) {
+    if(Bot.includes(message.author.id)) {
+      message.channel.send({embed : {
+        color: 3447003,
+    title: "I will be back!!",
+    description: "Bot Rebooting..",
+    timestamp: false,
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "© Water Bot"
+    }
+    }
+  })
+        .then(msg => client.destroy())
+        .then(() => client.login(process.env.TOKEN))
+        .then(() => {
+          message.channel.send({embed : {
+            color: 3447003,
+        title: "I am back!",
+        description: "Bot Successfully Rebooted",
+        timestamp: false,
+        footer: {
+          icon_url: client.user.avatarURL,
+          text: "© Water Bot"
+        }
+        }
+      });
+      })
+    }
+    else 
+    message.channel.send({embed : {
+      color: 0xFF0000,
+  title: "Insufficient Permissions!",
+  description: "This command is only usable by Access Level 3",
+  timestamp: false,
+  footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+  }
+  }
+});
+}
+else if (message.content === `${prefix}shutdown`) {
+    if(Bot.includes(message.author.id)) {
+      message.channel.send({embed : {
+        color: 3447003,
+    title: "Bye Bye Water YT Discord",
+    description: "Bot Shutting Down..",
+    timestamp: false,
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "© Water Bot"
+    }
+    }
+  })
+     .then(msg => client.destroy())
+    }
+    else message.channel.send({embed : {
+      color: 0xFF0000,
+  title: "Insufficient Permissions!",
+  description: "This command is only usable by Access Level 3",
+  timestamp: false,
+  footer: {
+    icon_url: client.user.avatarURL,
+    text: "© Water Bot"
+  }
+  }
+});
+}
+});
+
+client.login(process.env.BOT_TOKEN);
