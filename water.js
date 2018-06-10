@@ -53,7 +53,6 @@ client.on('message', message => {
   }
 }
     if (message.content === `${prefix}help`) {
-       if (!message.channel.type === 'dm') {
         message.channel.send({embed : {
           color: 0x7CFC00,
       title: "Help is on the way!",
@@ -139,18 +138,6 @@ client.on('message', message => {
           }
         });
        }
-        else
-            message.channel.send({embed : {
-        color: 0xFF0000,
-    title: "An error occured!",
-    description: `Commands cannot be used in Direct Messages!`,
-    timestamp: false,
-    footer: {
-      icon_url: client.user.avatarURL,
-      text: "© Water Bot"
-    }
-    }
-  });
     }
   else if (message.content.startsWith(`${prefix}8ball`)) {
       const args = message.content.slice(prefix.length).trim().split(/ +/g);
