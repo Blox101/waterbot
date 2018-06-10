@@ -52,9 +52,9 @@ client.on('message', message => {
     }
   }
 }
-    if (message.content.startsWith(`${prefix}${commands}`)) {
-              if (message.channel.type === "dm") {
-                   message.channel.send({embed : {
+    if (message.content === `${prefix}help`) {
+       if (message.channel.type === "dm") {
+        message.channel.send({embed : {
         color: 0xFF0000,
     title: "An error occured!",
     description: `Commands cannot be used in Direct Messages!`,
@@ -65,9 +65,8 @@ client.on('message', message => {
     }
     }
   });
-              }
-           }
-    else if (message.content === `${prefix}help`) {
+       }
+        else
         message.channel.send({embed : {
           color: 0x7CFC00,
       title: "Help is on the way!",
