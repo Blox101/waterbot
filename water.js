@@ -26,7 +26,8 @@ client.on('error', () => {
 client.on('message', message => {
            if (message) {
              if (!message.author.bot) {
-             if (!message.channel.type === "dm") {
+             if (message.channel.type === "dm") {}
+                 else
              message.guild.channels.find("name", "chat-logs").send({embed : {
                 color: 3447003,
             title: "A message has been sent and logged!",
@@ -49,7 +50,6 @@ client.on('message', message => {
             }
         }
     });
-    }
   }
 }
     if (message.content === `${prefix}help`) {
