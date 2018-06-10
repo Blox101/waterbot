@@ -1635,48 +1635,6 @@ else if (message.content.startsWith(`${prefix}addmod`)) {
   }
   });
 }
-else if (message.content === `${prefix}reboot`) {
-    if(Bot.includes(message.author.id)) {
-      message.channel.send({embed : {
-        color: 3447003,
-    title: "I will be back!!",
-    description: "Bot Rebooting..",
-    timestamp: false,
-    footer: {
-      icon_url: client.user.avatarURL,
-      text: "© Water Bot"
-    }
-    }
-  })
-        .then(msg => client.destroy())
-        .then(() => client.login(process.env.TOKEN))
-        .then(() => {
-          message.channel.send({embed : {
-            color: 3447003,
-        title: "I am back!",
-        description: "Bot Successfully Rebooted",
-        timestamp: false,
-        footer: {
-          icon_url: client.user.avatarURL,
-          text: "© Water Bot"
-        }
-        }
-      });
-      })
-    }
-    else 
-    message.channel.send({embed : {
-      color: 0xFF0000,
-  title: "Insufficient Permissions!",
-  description: "This command is only usable by Access Level 3",
-  timestamp: false,
-  footer: {
-    icon_url: client.user.avatarURL,
-    text: "© Water Bot"
-  }
-  }
-});
-}
 else if (message.content === `${prefix}shutdown`) {
     if(Bot.includes(message.author.id)) {
       message.channel.send({embed : {
