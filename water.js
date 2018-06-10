@@ -137,7 +137,6 @@ client.on('message', message => {
             }
           }
         });
-       }
     }
   else if (message.content.startsWith(`${prefix}8ball`)) {
       const args = message.content.slice(prefix.length).trim().split(/ +/g);
