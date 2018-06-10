@@ -127,10 +127,6 @@ client.on('message', message => {
                 name: ".shutdown",
                 value: "Shutdowns the bot. - Access Level 3"
               },
-              {
-                name: ".reboot",
-                value: "Restarts the bot. - Access Level 3"
-              }
             ],
             timestamp: false,
             footer: {
