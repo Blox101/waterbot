@@ -24,21 +24,6 @@ client.on('error', () => {
 
 
 client.on('message', message => {
-           if (message.content.startsWith(`${prefix}${commands}`)) {
-              if (message.channel.type === "dm") {
-                   message.channel.send({embed : {
-        color: 0xFF0000,
-    title: "An error occured!",
-    description: `Commands cannot be used in Direct Messages!`,
-    timestamp: false,
-    footer: {
-      icon_url: client.user.avatarURL,
-      text: "© Water Bot"
-    }
-    }
-  });
-              }
-           }
            if (message) {
              if (!message.author.bot) {
              if (!message.channel.type === "dm") {
@@ -67,7 +52,22 @@ client.on('message', message => {
     }
   }
 }
-    if (message.content === `${prefix}help`) {
+    if (message.content.startsWith(`${prefix}${commands}`)) {
+              if (message.channel.type === "dm") {
+                   message.channel.send({embed : {
+        color: 0xFF0000,
+    title: "An error occured!",
+    description: `Commands cannot be used in Direct Messages!`,
+    timestamp: false,
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "© Water Bot"
+    }
+    }
+  });
+              }
+           }
+    else if (message.content === `${prefix}help`) {
         message.channel.send({embed : {
           color: 0x7CFC00,
       title: "Help is on the way!",
