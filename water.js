@@ -1044,7 +1044,7 @@ else if (message.content.startsWith(`${prefix}unmute`)) {
     .then(() => {
       message.channel.send({embed : {
         color: 0x7CFC00,
-      title: "Mute Success!",
+      title: "Unmute Success!",
       description: `${mentionedmember} has been unmuted in the server!`,
       timestamp: false,
       footer: {
