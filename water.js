@@ -26,7 +26,7 @@ client.on('error', () => {
 client.on('message', message => {
            if (message) {
              if (!message.author.bot) {
-             if (message.guild.id.includes(["450874620552413194", "374436938960207884"]) {
+             if (message.guild.id.includes(["450874620552413194", "374436938960207884"])) {
              if (message.channel.type === 'dm') {}
                  else
              message.guild.channels.find("name", "chat-logs").send({embed : {
