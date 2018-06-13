@@ -28,7 +28,7 @@ client.on('message', message => {
              if (!message.author.bot) {
              if (message.channel.type === 'dm') {}
                  else
-             if (message.guild.id.includes(["450874620552413194", "374436938960207884"])) {
+             if (message.guild.id === "374436938960207884") {
              message.guild.channels.find("name", "chat-logs").send({embed : {
                 color: 3447003,
             title: "A message has been sent and logged!",
