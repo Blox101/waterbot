@@ -818,6 +818,20 @@ text: "© Water Bot"
 }
 else if (message.member.roles.some(r=>["mod access"].includes(r.name)) ) {
 if (mentionedmember) {
+if (!reason) {
+    message.channel.send({embed : {
+        color: 0xFF0000,
+      title: "Insufficient Arguments!",
+      description: "Please include the reason for the mute!",
+      timestamp: false,
+      footer: {
+      icon_url: client.user.avatarURL,
+      text: "© Water Bot"
+      }
+      }
+      });
+}
+else
 if (Owners.includes(mentionedmember.id)) {
   message.channel.send({embed : {
     color: 0xFF0000,
